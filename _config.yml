@@ -16,10 +16,10 @@ author: Growing AI like a Child 2024
 navbar-links:
   Home: "/"
   CognitiveDevelopment2K: "/pages/CogDev"
-  Mechanical Reasoning: " "
-  Consevation: " " 
-  Intentionality: " "
-  Contact: " "
+  Mechanical Reasoning: "/pages/MechReasoning"
+  Consevation: "/pages/Conservation" 
+  Intentionality: "/pages/Intentionality"
+  Contact: "/pages/Contact"
  
 
 # Image to show in the navigation bar - works best with a square image
