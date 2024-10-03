@@ -17,10 +17,10 @@ footerinfo: website created by Haiyun Lyu
 navbar-links:
   Home: "/"
   CognitiveDevelopment2K: "/pages/CogDev"
-  Mechanical Reasoning: "/pages/Mechi"
-  Consevation: "/pages/Conserv" 
-  Intentionality: "/pages/See"
-  Contact: "/pages/Contact"
+  Mechanical Reasoning: " "
+  Consevation: " " 
+  Intentionality: " "
+  Contact: " "
  
 
 # Image to show in the navigation bar - works best with a square image
