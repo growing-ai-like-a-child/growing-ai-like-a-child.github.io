@@ -1,0 +1,197 @@
+/* Style the button that is used to open and close the collapsible content */
+.gold{
+  color: orange;
+}
+
+.silver{
+  color: silver;
+}
+
+.collapsible {
+  margin-top: 15pt;
+  background-color: #ccd0eb;
+  border-color: #1f0612;
+  border-radius: 5pt;
+  color: #1f0612;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 100%;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccd0eb; /*rgba(0,0,0,.08);*/
+  border-color: #ccd0eb;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  color: white !important;
+  border-color: #ccd0eb;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  color: white;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  background-color: rgba(0,0,0,.01);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.nav-link{
+  font-size: 80%;
+  margin: -4pt !important;
+}
+
+.right {
+  position: absolute;
+  right: 20px;
+}
+
+.card-header{
+  font-size: 11pt;
+}
+
+.card-body{
+  font-size: 11pt;
+  margin-top: -10pt;
+}
+
+.btn-primary{
+  font-size: 100%;
+  background-color: #1f0612;
+  border-color: #1f0612;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #ccd0eb;
+  border-color: #1f0612;
+  color: #1f0612;
+}
+
+.center{
+  align-items: center;
+  display: flex;
+}
+
+.logo-sponsor{
+ margin-left: 10pt;
+ margin-right: 10pt;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+organiser-name {
+  text-align: center;
+}
+
+h1 {
+  font-size: 22pt !important;
+}
+
+span.page-subheading{
+  font-size: 18pt !important;
+}
+
+h4{
+  font-size: 12pt !important;
+  font-weight: normal; !important;
+}
+
+.subsubheading {
+    font-size: 1rem;
+    text-align: center !important;
+    line-height: 1.1;
+    /*display: block;*/
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-weight: 300;
+    margin: -0.8rem 0rem 1rem;
+}
+
+.contact-heading  {
+    font-size: 1rem;
+    text-align: center !important;
+    line-height: 1.1;
+    /*display: block;*/
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-weight: 300;
+    margin: -0rem 0rem 1rem;
+}
+
+.organiser-img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.organiser-name{
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .organiser-img{
+    width: 30% !important;
+  }
+}
+
+table {
+    width: 100%;
+}
+td:first-child {
+    width: 90pt;
+}
+tr:nth-child(n+1), tr:nth-child(n+2) {
+    background: #ccd0eb;
+}
+
+
+.row{
+  margin-bottom: 10px;
+}
+
+
+
+.program-table{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.speaker-affiliation{
+  font-weight: lighter !important;
+  font-size: 11pt;
+  color: dimgrey; !important;
+}
+
+.frame {
+    
+    white-space: nowrap;
+    
+    text-align: center; margin: 1em 0;
+}
+
+
+.speaker-img{
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  width: 75%;
+}
