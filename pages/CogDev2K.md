@@ -18,23 +18,7 @@ Submissions should be on any topics related to the Intrinsically Motivated Open-
 <div class='description' style='font-size: 11pt;'>
 
 <ul>
-<li> Intrinsic motivation in machines and animals, </li>
-<li> Autonomous open-ended learning, </li>
-<li> Autonomous goal generation, </li>
-<li> Self-supervised representation learning, </li>
-<li> Hierarchical and goal-directed RL, </li>
-<li> Curriculum learning, </li>
-<li> Interplay between intrinsic and extrinsic motivations, </li>
-<li> Skill compositionality and chunking, </li>
-<li> Knowledge transfer, </li>
-<li> Avoiding catastrophic forgetting, </li>
-<li> Learning neural/probabilistic abstract representations of state, actions and skills, </li>
-<li> Open-ended development in children, </li>
-<li> Role of metacognitive representations and processes in open-ended learning, </li>
-<li> Playful exploration, </li>
-<li> Language and sociality in open-ended learning, </li>
-<li> Mitigation of risks of open-ended learning, </li>
-<li> Philosophical and ethical implications of IMOL.</li>
+<li> g, </li>
 </ul>
 </div>
 
