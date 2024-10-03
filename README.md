@@ -1,2 +1,2 @@
-This is the code for [MyoSeminar](https://MyoSeminar.github.io/) Journal Club website.
-Inspired by [Andy Zeng's website](https://andyzeng.github.io/).
+This is the code for [Growing AI like a Child](https://Growing-AI-like-a-Child.github.io/) website.
+Inspired by [2024 IMOL Workshop](https://imol-workshop.github.io/).
