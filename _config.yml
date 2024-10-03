@@ -15,10 +15,10 @@ author: Haiyun Lyu
 
 navbar-links:
   Home: "/"
-  CogDev: "/pages/CogDev2K"
-  Mechi: "/pages/Mechanical Reasoning"
-  Consevation: "/pages/Conservation" 
-  Intentionality: "/pages/Intentionality"
+  CognitiveDevelopment2K: "/pages/CogDev"
+  Mechanical Reasoning: "/pages/Mechi"
+  Consevation: "/pages/Conserv" 
+  Intentionality: "/pages/Intention"
   #Contact: "/pages/Contact"
  
 
