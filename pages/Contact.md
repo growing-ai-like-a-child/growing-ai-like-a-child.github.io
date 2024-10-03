@@ -19,4 +19,4 @@ subtitle:
     <img src="Logo.jpeg">
 </figure>
 
-</div>
+
