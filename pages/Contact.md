@@ -16,7 +16,7 @@ subtitle:
 </center>
 
 <figure>
-    <img src="Logo.jpeg">
+    <img src="/workspaces/growing-ai-like-a-child.github.io/Logo.jpeg">
 </figure>
 
 
