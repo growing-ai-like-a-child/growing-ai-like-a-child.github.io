@@ -14,8 +14,13 @@ subtitle: Reversed Cognitive Development in Multi-modal Large Language Models
 <div class='description' style='font-size: 11pt;margin-bottom: 10pt'>
 
 <ul>
-	<li>4-page submissions of technical contributions, benchmarks, negative results and opinion papers.</li>
-	<li>1-page tiny papers (inspired by the ICLR tiny paper initiative) showcasing early research ideas to foster discussion and collaboration.</li>
+	<li>Are Multi-modal Large Language Models (MLLMs) stochastic parrots? Do they genuinely understand and are capable of performing the tasks they excel at? This paper aims to explore the fundamental basis of MLLMs, i.e. core cognitive abilities that human intelligence builds upon to perceive, comprehend, and reason. To this end, we propose CogDevelop2K, a comprehensive benchmark that spans 12 sub-concepts from fundamental knowledge like object permanence and boundary to advanced reasoning like intentionality understanding, structured via the developmental trajectory of a human mind. We evaluate 46 MLLMs on our benchmarks. Comprehensively, we further evaluate the influence of evaluation strategies and prompting techniques. Surprisingly, we observe a reversed cognitive developmental trajectory compared to humans.</li>
 </ul>
+
+<figure>
+    <img src="/img/CogDevelop2K/case_pic.jpg">
+</figure>
+
+
 
 </div>
