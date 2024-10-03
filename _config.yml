@@ -9,7 +9,8 @@
 title: Growing AI like a Child 
 
 # Your name to show in the footer
-author: Haiyun Lyu
+author: Growing AI like a Child 2024
+footerinfo: website created by Haiyun Lyu
 #footerinfo: The website robot logo is modified from a Flaticon logo, created by Slidesgo
 # --- List of links in the navigation bar --- #
 
@@ -18,8 +19,8 @@ navbar-links:
   CognitiveDevelopment2K: "/pages/CogDev"
   Mechanical Reasoning: "/pages/Mechi"
   Consevation: "/pages/Conserv" 
-  Intentionality: "/pages/Intention"
-  #Contact: "/pages/Contact"
+  Intentionality: "/pages/See"
+  Contact: "/pages/Contact"
  
 
 # Image to show in the navigation bar - works best with a square image
@@ -39,16 +40,16 @@ navbar-links:
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "@gmail.com"
+ email: " @gmail.com"
 #   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #   facebook: deanattali
-#   github: daattali
-  twitter: 
-#   patreon: DeanAttali
-#   youtube: c/daattali
+ github: "www.github.com/growing-ai-like-a-child"
+ twitter: 
+#  patreon: DeanAttali
+#  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin:  
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -63,9 +64,10 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-  discord: invite/invite_code or users/userid 
+#  discord: invite/invite_code or users/userid 
 #  kaggle: yourname
 #  hackerrank: yourname
+   slack: 
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
