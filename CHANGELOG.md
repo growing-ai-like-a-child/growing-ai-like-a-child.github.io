@@ -11,7 +11,6 @@ page/Contact
 Key Features
 Link paper pages to arxiv
 pictures and key findings for each concept 
-twitter/X icon
 slack icon 
 gmail icon 
 title and description for the org
