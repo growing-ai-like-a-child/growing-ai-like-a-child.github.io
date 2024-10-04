@@ -9,10 +9,11 @@ page/Intentionality
 page/Contact
 
 Key Features
-Link paper pages to arxiv
+Link paper pages to arxiv and openreview
 pictures and key findings for each concept 
-slack icon 
-gmail icon 
+slack contact  
+gmail contact  
+github contact 
 title and description for the org
 awaiting: members 
 time: preferably Oct 3
