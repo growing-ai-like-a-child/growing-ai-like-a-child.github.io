@@ -39,11 +39,11 @@ navbar-links:
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "  @gmail.com"
+  email: "growing.ai.like.a.child@gmail.com"
 #   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #   facebook: deanattali
   github: "growing-ai-like-a-child"
-  twitter: "Growing AI like a Child"
+  slack: "https://join.slack.com/t/growingailikeachild/shared_invite/zt-2rw1oqto3-I7IsBoawbi6btzBkaTFI8g"
 #  patreon: DeanAttali
 #  youtube: c/daattali
 #  medium: yourname
