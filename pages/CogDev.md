@@ -3,9 +3,7 @@ layout: page
 title: CogDevelop2K
 subtitle: Reversed Cognitive Development in Multi-modal Large Language Models
 ---
-
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
-
 <center>
 <div class="assets">
 <a href="https://openreview.net/forum?id=fDNBPqgr4K" target="_blank">[paper]</a>
