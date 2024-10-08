@@ -28,22 +28,22 @@ subtitle:
     <img src="/img/CogDevelop2K/System2ReasoningatScale_Conservation/conserve_case_2.jpg">
 </figure>
 
-<h3 style="font-family: 'Times New Roman', Times, serif; font-size: 14pt; line-height: 1.6;">VLMs performance on Length experiments on ConserveBench. As shown in B), VLM can not verify the length of two lines placed as diagonal and vertical. D) shows that VLM has difficulty verifying the length of lines placed in perpendicular relation. A) and C) show that VLMs have the ability to verify parallel lines in a virtual setting.</h3>
+<p style="font-family: 'Times New Roman', Times, serif; font-size: 14pt; line-height: 1.6;">VLMs performance on Length experiments on ConserveBench. As shown in B), VLM can not verify the length of two lines placed as diagonal and vertical. D) shows that VLM has difficulty verifying the length of lines placed in perpendicular relation. A) and C) show that VLMs have the ability to verify parallel lines in a virtual setting.</p>
 <figure>
     <img src="/img/CogDevelop2K/System2ReasoningatScale_Conservation/case_4.jpg">
 </figure>
 
-<h3 style="font-family: 'Times New Roman', Times, serif; font-size: 14pt; line-height: 1.6;">VLMs performance on Number experiments on ConserveBench. Sets of 3 to 13 trapezoids in both reality and virtual display are tested. The same number of trapezoids has been placed on two lines with different distance between the trapezoids. VLMs can correctly count the number of 3 trapezoids. Yet for 4 to 13, VLMs count the number of trapezoids wrong. </h3>
+<p style="font-family: 'Times New Roman', Times, serif; font-size: 14pt; line-height: 1.6;">VLMs performance on Number experiments on ConserveBench. Sets of 3 to 13 trapezoids in both reality and virtual display are tested. The same number of trapezoids has been placed on two lines with different distance between the trapezoids. VLMs can correctly count the number of 3 trapezoids. Yet for 4 to 13, VLMs count the number of trapezoids wrong. </p>
 <figure>
     <img src="/img/CogDevelop2K/System2ReasoningatScale_Conservation/case_3.jpg">
 </figure>
 
-<h3 style="font-family: 'Times New Roman', Times, serif; font-size: 14pt; line-height: 1.6;">VLMs performance on Number experiments on ConserveBench with modified way of asking question. Sets of 3 to 13 trapezoids in both reality and virtual display are tested. </h3>
+<p style="font-family: 'Times New Roman', Times, serif; font-size: 14pt; line-height: 1.6;">VLMs performance on Number experiments on ConserveBench with modified way of asking question. Sets of 3 to 13 trapezoids in both reality and virtual display are tested. </p>
 <figure>
     <img src="/img/CogDevelop2K/System2ReasoningatScale_Conservation/conserve_case_5.jpg">
 </figure>
 
-<h3 style="font-family: 'Times New Roman', Times, serif; font-size: 14pt; line-height: 1.6;">We observe that GPT-4o achieve very high performance on law of conservation tasks whereas fail badly on quantity understanding, Number and Length, tasks.</h3>
+<p style="font-family: 'Times New Roman', Times, serif; font-size: 14pt; line-height: 1.6;">We observe that GPT-4o achieve very high performance on law of conservation tasks whereas fail badly on quantity understanding, Number and Length, tasks.</p>
 <figure>
     <img src="/img/CogDevelop2K/System2ReasoningatScale_Conservation/conservation.jpg">
 </figure>
