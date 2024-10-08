@@ -22,6 +22,7 @@ Are Multi-modal Large Language Models (MLLMs) stochastic parrots? Do they genuin
     <img src="/material_1.jpg">
 </figure>
 
+<hr class="small" style="border-width: 5pt; border-color: lightgray;">
 <h3>Cognitive Experiment Example</h3>
 <ul>
 A video-image interleaved example of multi-frame questions. To correctly infer the answer, model needs to understand the question by mapping each image (co-reference) to its option letter, to understand correlation between frames (temporal understanding) and to infer the possible trajectory of the bottle (reasoning).
@@ -31,10 +32,14 @@ A video-image interleaved example of multi-frame questions. To correctly infer t
     <img src="/img/CogDevelop2K/multi-interleave.png">
 </figure>
 
+<hr class="small" style="border-width: 5pt; border-color: lightgray;">
+
 <h3>We built a comprehensive and exhaustive sets of cognitive exeperiments acoss three Piagetian developmental stages</h3>
 <figure>
     <img src="/img/CogDevelop2K/case_pic.jpg">
 </figure>
+
+<hr class="small" style="border-width: 5pt; border-color: lightgray;">
 
 <h3>We observe diverse performances across Multimodal Large Language Models </h3>
 <figure>
