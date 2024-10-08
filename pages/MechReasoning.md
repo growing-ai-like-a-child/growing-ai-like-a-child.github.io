@@ -53,7 +53,6 @@ VLMs performance in intuitively evaluating system stability is not ideal, howeve
 <figure>
     <img src="/img/CogDevelop2K/System2ReasoningatScale_MechReason/Case_5.jpg">
 </figure>
-</div>
 
 <h3>Reasoning about Fluids System</h3>
 <figure>
