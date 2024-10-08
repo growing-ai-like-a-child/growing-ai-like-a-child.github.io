@@ -33,10 +33,8 @@ VLMs performance in intuitively evaluating system stability is not ideal, howeve
 <p>We find that current VLMs struggle to handle pulley systems. There are generally three failures in VLMs' reasoning about pulley systems: first, VLMs are not able to identify which are the movable pulleys in the system, and second, VLMs exhibit relatively low accuracy in determining whether an object is rising or falling through pulley systems.</p>
 
 <p>VLMs perform poorly in recognizing movable pulley systems. In one experiment, the image includes a standard single movable pulley system and a standard single fixed pulley system. The question "Which system requires less effort?" essentially asks whether the model can correctly select the movable pulley. Clearly, the model failed in its selection, as it straightforwardly provided an incorrect answer in its explanation. VLMs also struggle in predicting whether a suspended weight is being lifted or lowered through a pulley system. Multiple experiments either directly or indirectly reflect this issue, with one experiment being the most direct and concise. In this case, the weight is directly attached to the movable pulley, and by pulling the other end of the rope, the pulley and the weight are lifted. However, the model's response was the exact opposite of the correct answer. In its explanation, the model seemed to imply that the pulley was not fixed (though it did not explicitly state that it was a movable pulley), and the physics it provided was entirely incorrect. Therefore, we can hypothesize that the model's poor performance in predicting the weight's movement may be due to its limited ability to recognize movable pulleys. However, the specific reasons require further experiments to be analyzed in detail.</p>
-
 <p>The above issues confirm that VLMs still have limitations in recognizing pulley systems. For individuals with some mechanical experience, identifying simple pulley systems through basic diagrams is not difficult.</p>
 -->
-
 <figure>
     <img src="/img/CogDevelop2K/System2ReasoningatScale_MechReason/Case_2.jpg">
 </figure>
