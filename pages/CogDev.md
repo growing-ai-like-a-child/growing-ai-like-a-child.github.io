@@ -19,9 +19,8 @@ subtitle: Reversed Cognitive Development in Multi-modal Large Language Models
 </ul>
 
 <figure>
-    <img src="/img/CogDevelop2K/case_pic.jpg">
+    <img src="/material_1.jpg">
 </figure>
-
 
 
 </div>
