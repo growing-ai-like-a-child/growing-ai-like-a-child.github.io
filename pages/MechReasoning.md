@@ -3,9 +3,7 @@ layout: page
 title: Probing Mechanical Reasoning in Large Vision Language Models
 subtitle: 
 ---
-
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
-
 <center>
 <div class="assets">
 <a href="https://arxiv.org/abs/2410.00318" target="_blank">[paper]</a>
