@@ -18,12 +18,6 @@ subtitle:
     Conservation is a critical milestone of cognitive development considered to be supported by both the understanding of quantitative concepts and the reversibility of mental operations. To assess whether this critical component of human intelligence has emerged in Vision Language Models, we leverage the ConserveBench from CogDevelop2K, a data-intensive cognitive experiment benchmark for assaying the developmental trajectory of machine intelligence. The battery includes over 350 questions across four dimensions of physical quantities: volume, solid quantity, length, and number. The former two involve only transformational tasks, whereas the latter two also involve non-transformational tasks assessing the understanding of quantitative concepts alone. Surprisingly, we find that while VLMs are generally capable of conserving, they tend to fail at non-transformational tasks which success is typically considered to be entailed by the ability to conserve. This implies that the law of conservation, at least in concrete domains, may exist without corresponding conceptual understanding of quantity.
 </ul>
 
-<p style="font-family: 'Times New Roman', Times, serif; font-size: 13pt;">
-    VLMs Performance on ConserveBench from CogDevelop2K
-</p>
-<figure>
-    <embed src="/img/Cogdevelop2K/System2ReasoningatScale_Conservation/accuracy.pdf" type="application/pdf" width="100%" height="600px">
-</figure>
 
 
 </div>
