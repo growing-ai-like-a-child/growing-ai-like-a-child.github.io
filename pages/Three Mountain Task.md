@@ -3,9 +3,7 @@ layout: page
 title: Vision Language Models See What You Want but not What You See
 subtitle: 
 ---
-
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
-
 <center>
 <div class="assets">
 <a href="https://arxiv.org/abs/2410.00324" target="_blank">[paper]</a>
