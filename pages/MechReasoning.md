@@ -18,8 +18,13 @@ subtitle:
     Mechanical reasoning is a fundamental ability that sets human intelligence apart from other animal intelligence. Mechanical reasoning allows us to design tools, build bridges and canals, and construct houses which set the foundation of human civilization. Embedding machines with such ability is an important step towards building human-level artificial intelligence. Recently, Li et al. built CogDevelop2K, a data-intensive cognitive experiment benchmark for assaying the developmental trajectory of machine intelligence (Li et al., 2024). Here, to investigate mechanical reasoning in Vision Language Models, we leverage the MechBench of CogDevelop2K, which contains approximately 150 cognitive experiments, to test understanding of mechanical system stability, gears and pulley systems, seesaw-like systems and leverage principle, inertia and motion, and other fluid-related systems in Large Vision Language Models. We observe diverse yet consistent behaviors over these aspects in VLMs.
 </ul>
 
+
+
+<p style="font-family: 'Times New Roman', Times, serif; font-size: 13pt;">
+    VLMs Performance on ConserveBench from CogDevelop2K
+</p>
 <figure>
-    <img src=" ">
+    <img src="/img/CogDevelop2K/System2ReasoningatScale_MechReason">
 </figure>
 
 
