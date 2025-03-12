@@ -15,11 +15,11 @@ author: Growing AI like a Child
 
 navbar-links:
   Home: "/"
-  CogDevelop2K: "/pages/CogDev"
-  Conservation: "/pages/Conservation" 
-  Mechanical Reasoning: "/pages/MechReasoning"
-  Three Mountain Task: "/pages/Three Mountain Task"
-  Contact: "/pages/Contact"
+  # CogDevelop2K: "/pages/CogDev"
+  # Conservation: "/pages/Conservation" 
+  # Mechanical Reasoning: "/pages/MechReasoning"
+  # Three Mountain Task: "/pages/Three Mountain Task"
+  # Contact: "/pages/Contact"
  
 
 # Image to show in the navigation bar - works best with a square image
