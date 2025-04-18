@@ -17,7 +17,7 @@ Are Multi-modal Large Language Models (MLLMs) stochastic parrots? Do they genuin
 </ul>
 
 <figure>
-    <img src="/material_1.jpg">
+    <img src="/img/CogDevelop2K/material_1.jpg">
 </figure>
 
 <hr class="small" style="border-width: 0; height: 0px; background-color: white; padding-top: 20px; padding-bottom: 20px;">
