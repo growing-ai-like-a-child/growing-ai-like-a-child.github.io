@@ -15,13 +15,13 @@ author: GrowAI
 
 navbar-links:
   Home: "/"
-  Core Knowledge: "/pages/Core"
-  Conservation: "/pages/Conservation" 
-  World-to-Words: "/pages/OctoBERT"
-  BabySit LLM: "/pages/BabySit"
-  Mechanical Reasoning: "/pages/MechReasoning"
-  Three Mountain Task: "/pages/Three Mountain Task"
-  People: "/pages/People"
+  # Core Knowledge: "/pages/Core"
+  # Conservation: "/pages/Conservation" 
+  # World-to-Words: "/pages/OctoBERT"
+  # BabySit LLM: "/pages/BabySit"
+  # Mechanical Reasoning: "/pages/MechReasoning"
+  # Three Mountain Task: "/pages/Three Mountain Task"
+  # People: "/pages/People"
  
 
 # Image to show in the navigation bar - works best with a square image
