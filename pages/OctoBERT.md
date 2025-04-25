@@ -1,7 +1,7 @@
 ---
 layout: page
 title: OctoBERT
-subtitle: World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapping in Vision-Language Models
+subtitle: World-to-Words Grounded Open Vocabulary Acquisition through Fast Mapping in Vision-Language Models
 ---
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
