@@ -4,6 +4,8 @@ title: OctoBERT
 subtitle: World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapping in Vision-Language Models
 ---
 
+<h1 style="text-align: center; font-size: 28pt; margin-bottom: 20px;">World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapping in Vision-Language Models</h1>
+
 <center>
     <div class="assets">
         <b><u>Martin Ziqiao Ma</u></b>*, Jiayi Pan*, Joyce Chai
