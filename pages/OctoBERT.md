@@ -3,8 +3,13 @@ layout: page
 title: OctoBERT
 subtitle: World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapping in Vision-Language Models
 ---
+[//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
+<center>
+<div class="assets">
+<a href="http://arxiv.org/abs/2306.08685" target="_blank">[paper]</a>
+</div>
+</center>
 
-<h1 style="text-align: center; font-size: 28pt; margin-bottom: 20px;">World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapping in Vision-Language Models</h1>
 
 <center>
     <div class="assets">
