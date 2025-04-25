@@ -10,19 +10,6 @@ subtitle: World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapp
 </div>
 </center>
 
-
-<center>
-    <div class="assets">
-        <b><u>Martin Ziqiao Ma</u></b>*, Jiayi Pan*, Joyce Chai
-    </div>
-    <div class="assets">
-        [ACL 2023 (Outstanding Paper Award)] 
-        <a href="http://arxiv.org/abs/2306.08685" target="_blank">[paper]</a> 
-        <a href="https://github.com/sled-group/world-to-words" target="_blank">[github]</a> 
-        <a href="https://huggingface.co/sled-umich/OctoBERT-Trajectories" target="_blank">[huggingface]</a> 
-    </div>
-</center>
-
 <div class='description' style='font-size: 11pt;margin-bottom: 10pt'>
 <h3>Abstract</h3>
 <p>
