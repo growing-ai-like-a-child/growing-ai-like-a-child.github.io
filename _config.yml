@@ -15,11 +15,12 @@ author: GrowAI
 
 navbar-links:
   Home: "/"
-  CogDevelop2K: "/pages/Core"
+  Core Knowledge: "/pages/Core"
   Conservation: "/pages/Conservation" 
+  World-to-Words: "/pages/OctoBERT"
   Mechanical Reasoning: "/pages/MechReasoning"
   Three Mountain Task: "/pages/Three Mountain Task"
-  Contact: "/pages/People"
+  People: "/pages/People"
  
 
 # Image to show in the navigation bar - works best with a square image
