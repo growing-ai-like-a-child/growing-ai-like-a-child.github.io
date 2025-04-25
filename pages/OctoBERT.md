@@ -6,11 +6,13 @@ subtitle: World-to-Words Grounded Open Vocabulary Acquisition through Fast Mappi
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
 <div class="assets">
-<a href="https://arxiv.org/abs/2410.00318" target="_blank">[paper]</a>
+<a href="https://arxiv.org/abs/2410.00318" target="_blank">[Paper]</a>
+<a href="https://huggingface.co/papers/2306.08685" target="_blank">[HuggingFace]</a>
+<a href="https://github.com/sled-group/world-to-words" target="_blank">[GitHub]</a>
 </div>
 </center>
 
-<div class='description' style='font-size: 11pt;margin-bottom: 10pt'>
+<div class='description' style='font-size: 11pt;margin-bottom: 20pt'>
 <h3>Abstract</h3>
 <p>
 The ability to connect language units to their referents in the physical world, referred to as <i>grounding</i>, is crucial to learning and understanding grounded meanings of words. 
@@ -29,9 +31,9 @@ Even when the term "<code>incinerator</code>" is new to human learners, they can
 In fact, this ability to bootstrap new word learning with only minimal information, known as <i>fast mapping</i>, is demonstrated abundantly in cognitive literature on human language acquisition.
 </p>
 
-<figure>
-    <img src="/img/OctoBERT/formulation.png" alt="Word mapping example showing grounding of the term incinerator">
-    <figcaption>Figure 1: Even when the term "<code>incinerator</code>" (highlighted yellow) is new to human learners, they can still locate the most likely referent (indicated by the yellow bounding box) in the perceived world by grounding.</figcaption>
+<figure style="text-align: center; margin: 25px 0;">
+    <img src="/img/OctoBERT/formulation.png" alt="Word mapping example showing grounding of the term incinerator" style="max-width: 90%; height: auto;">
+    <figcaption style="margin-top: 10px; font-style: italic;">Even when the term "<code>incinerator</code>" (highlighted yellow) is new to human learners, they can still locate the most likely referent (indicated by the yellow bounding box) in the perceived world by grounding.</figcaption>
 </figure>
 
 <p>
@@ -46,18 +48,18 @@ We introduce Grounded Open Vocabulary Acquisition (<code>GOVA</code>), a scalabl
 In this formulation, language learning is a combination of learning to predict a word in a linguistic context as well as learning to ground the word in the physical world.
 </p>
 
-<figure>
-    <img src="/img/OctoBERT/refcloze.png" alt="Word grounding task example">
-    <figcaption>Figure 2: An instance of the word grounding task. Models are tasked to predict the missing word "<code>boat</code>" and localize the corresponding smaller yellow boat in the image coherently.</figcaption>
+<figure style="text-align: center; margin: 25px 0;">
+    <img src="/img/OctoBERT/refcloze.png" alt="Word grounding task example" style="max-width: 90%; height: auto;">
+    <figcaption style="margin-top: 10px; font-style: italic;">An instance of the word grounding task. Models are tasked to predict the missing word "<code>boat</code>" and localize the corresponding smaller yellow boat in the image coherently.</figcaption>
 </figure>
 
 <p>
 Under this formulation, we explore the framework in which the model first acquires the grounding ability during pre-training, and then transfers this ability to learn unseen words without grounding supervision.
 </p>
 
-<figure>
-    <img src="/img/OctoBERT/few-shot.png" alt="Few-shot new word learning framework">
-    <figcaption>Figure 3: An illustration of the few-shot new word learning paradigm. The model first pre-trains on a grounding dataset with a set of base words (V_seen), and then attempts to acquire a set of unseen words (V_unseen) in a small number of raw text-image pairs.</figcaption>
+<figure style="text-align: center; margin: 25px 0;">
+    <img src="/img/OctoBERT/few-shot.png" alt="Few-shot new word learning framework" style="max-width: 90%; height: auto;">
+    <figcaption style="margin-top: 10px; font-style: italic;">An illustration of the few-shot new word learning paradigm. The model first pre-trains on a grounding dataset with a set of base words (V_seen), and then attempts to acquire a set of unseen words (V_unseen) in a small number of raw text-image pairs.</figcaption>
 </figure>
 
 <h3>Object-Oriented BERT (<code>OctoBERT</code>)</h3>
@@ -67,9 +69,9 @@ Compared to many existing VLMs, <code>OctoBERT</code> performs language modeling
 The model first acquires the ability to ground during pre-training, and then transfers this intrinsic ability to learn unseen words when grounded supervision is no longer available.
 </p>
 
-<figure>
-    <img src="/img/OctoBERT/model.png" alt="OctoBERT model architecture">
-    <figcaption>Figure 4: An overview of <code>OctoBERT</code>, a visually grounded language model pre-trained with three objectives: masked language modeling (MLM), object localization (OL), and grounding through word-region alignment (WRA).</figcaption>
+<figure style="text-align: center; margin: 25px 0;">
+    <img src="/img/OctoBERT/model.png" alt="OctoBERT model architecture" style="max-width: 90%; height: auto;">
+    <figcaption style="margin-top: 10px; font-style: italic;">An overview of <code>OctoBERT</code>, a visually grounded language model pre-trained with three objectives: masked language modeling (MLM), object localization (OL), and grounding through word-region alignment (WRA).</figcaption>
 </figure>
 
 <h3>Key Findings</h3>
@@ -77,18 +79,13 @@ The model first acquires the ability to ground during pre-training, and then tra
 Our empirical results show that learning to map words to their referents plays a significant role in grounded word acquisition. By pre-training with fine-grained word-object mappings, <code>OctoBERT</code> demonstrates stronger performance in learning grounded meanings of words, both seen and unseen, yet with orders of magnitude fewer data compared to other competitive VLM baselines.
 </p>
 
-<figure>
-    <img src="/img/OctoBERT/grounding.png" alt="Word-agnostic grounding example">
-    <figcaption>Figure 5: Although the word "<code>elephant</code>" is unseen to <code>OctoBERT</code>, the model is still able to localize the object in the image referred to by the <code>MASK</code>.</figcaption>
-</figure>
-
 <p>
 The pre-trained model can further provide a foundation for efficient learning of new grounded words with a few examples. We further present an in-depth analysis to understand potential predictors of VLMs in word learning, which demonstrates intriguing behaviors in comparison to human language learning.
 </p>
 
-<figure>
-    <img src="/img/OctoBERT/multiclass.png" alt="Graph showing performance on multi-class incremental learning">
-    <figcaption>Figure 6: The log G-PPL (All-Protocol) of seen and unseen words in multi-class incremental learning, each unseen word with a sample size ranging from 8 to 32.</figcaption>
+<figure style="text-align: center; margin: 25px 0;">
+    <img src="/img/OctoBERT/multiclass.png" alt="Graph showing performance on multi-class incremental learning" style="max-width: 90%; height: auto;">
+    <figcaption style="margin-top: 10px; font-style: italic;">The log G-PPL (All-Protocol) of seen and unseen words in multi-class incremental learning, each unseen word with a sample size ranging from 8 to 32.</figcaption>
 </figure>
 
 <h3>Conclusion</h3>
