@@ -6,8 +6,7 @@ subtitle: Investigating the Foundations of Multimodal Intelligence
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
 <div class="assets">
-<a href="https://openreview.net/forum?id=fDNBPqgr4K" target="_blank">[Paper]</a>
-<a href="https://huggingface.co/datasets/grow-ai-like-a-child/core-cognition" target="_blank">[Dataset]</a>
+<a href="https://arxiv.org/abs/2410.10855" target="_blank">[Paper]</a>
 </div>
 </center>
 
@@ -21,7 +20,7 @@ To probe core knowledge representation in MLLMs, we draw from developmental cogn
 </p>
 
 <figure style="text-align: center; margin: 25px 0;">
-    <img src="/img/Core/final_1_2.jpg" alt="Data statistics and cognitive development map" style="max-width: 90%; height: auto;">
+    <img src="/img/Core/final_1_2.png" alt="Data statistics and cognitive development map" style="max-width: 90%; height: auto;">
     <figcaption style="margin-top: 10px; font-style: italic;">Left: Data statistics of CoreCognition dataset. Right: Map of core cognitive abilities organized by developmental stage, with dependency relationships indicated by arrows.</figcaption>
 </figure>
 
@@ -55,7 +54,7 @@ Our study examines 12 core cognitive abilities organized across three developmen
 </ul>
 
 <figure style="text-align: center; margin: 25px 0;">
-    <img src="/img/Core/final_2.jpg" alt="Examples from CoreCognition dataset" style="max-width: 90%; height: auto;">
+    <img src="/img/Core/final_2.png" alt="Examples from CoreCognition dataset" style="max-width: 90%; height: auto;">
     <figcaption style="margin-top: 10px; font-style: italic;">Examples of tasks from the CoreCognition dataset, illustrating how each cognitive ability is assessed.</figcaption>
 </figure>
 
@@ -67,7 +66,7 @@ We found that MLLMs perform significantly better on tasks associated with later 
 </p>
 
 <figure style="text-align: center; margin: 25px 0;">
-    <img src="/img/Core/Graph2.jpg" alt="Performance across developmental stages" style="max-width: 70%; height: auto;">
+    <img src="/img/Core/Graph2.png" alt="Performance across developmental stages" style="max-width: 70%; height: auto;">
     <figcaption style="margin-top: 10px; font-style: italic;">MLLMs demonstrate better performance on higher-level abilities (Formal Operational) than on lower-level abilities (Sensorimotor), which is contrary to human cognitive development.</figcaption>
 </figure>
 
@@ -77,7 +76,7 @@ Our scaling analysis revealed that while high-level abilities improve with large
 </p>
 
 <figure style="text-align: center; margin: 25px 0;">
-    <img src="/img/Core/scalling.jpg" alt="Relationship between model performance and size" style="max-width: 90%; height: auto;">
+    <img src="/img/Core/scalling.png" alt="Relationship between model performance and size" style="max-width: 90%; height: auto;">
     <figcaption style="margin-top: 10px; font-style: italic;">Scaling laws do not apply uniformly across all cognitive abilities. While high-level abilities improve with model size, low-level abilities show little to no improvement.</figcaption>
 </figure>
 
@@ -87,12 +86,12 @@ To probe whether models genuinely understand core concepts or merely exploit sta
 </p>
 
 <figure style="text-align: center; margin: 25px 0;">
-    <img src="/img/Core/final_3.jpg" alt="Examples of Concept Hacking" style="max-width: 90%; height: auto;">
+    <img src="/img/Core/final_3.png" alt="Examples of Concept Hacking" style="max-width: 90%; height: auto;">
     <figcaption style="margin-top: 10px; font-style: italic;">Examples of Concept Hacking methodology. Left: A model relying on shortcuts would succeed in the standard task but fail the manipulated one. Right: A model with an illusory understanding would fail the standard task but succeed in the manipulated version.</figcaption>
 </figure>
 
 <figure style="text-align: center; margin: 25px 0;">
-    <img src="/img/Core/parrot.jpg" alt="Concept Hacking results" style="max-width: 70%; height: auto;">
+    <img src="/img/Core/parrot.png" alt="Concept Hacking results" style="max-width: 70%; height: auto;">
     <figcaption style="margin-top: 10px; font-style: italic;">Accuracy of MLLMs on Control vs. Manipulation tasks in Concept Hacking. As models scale, they increasingly rely on either shortcuts or illusory understandings rather than developing true core knowledge like humans (who would progress along the diagonal).</figcaption>
 </figure>
 

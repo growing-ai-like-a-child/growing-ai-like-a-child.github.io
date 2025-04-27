@@ -19,8 +19,8 @@ navbar-links:
   Conservation: "/pages/Conservation" 
   World-to-Words: "/pages/OctoBERT"
   BabySit LLM: "/pages/BabySit"
-  Mechanical Reasoning: "/pages/MechReasoning"
-  Three Mountain Task: "/pages/Three Mountain Task"
+  #Mechanical Reasoning: "/pages/MechReasoning"
+  # Three Mountain Task: "/pages/Three Mountain Task"
   People: "/pages/People"
  
 
