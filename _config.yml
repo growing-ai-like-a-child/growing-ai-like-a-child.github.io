@@ -15,11 +15,11 @@ author: GrowAI
 
 navbar-links:
   Home: "/"
+  Seminar: "/pages/Seminar"
+  People: "/pages/Members"
   Core Knowledge: "/pages/Core"
   BabySit LLM: "/pages/BabySit"
   World-to-Words: "/pages/OctoBERT"
-  Seminar: "/pages/Seminar"
-  People   : "/pages/Members"
  
 
 # Image to show in the navigation bar - works best with a square image

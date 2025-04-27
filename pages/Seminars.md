@@ -86,13 +86,16 @@ subtitle:
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   margin-top: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .seminar-card {
-  width: 300px;
-  padding: 20px;
+  width: 220px;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -106,49 +109,51 @@ subtitle:
 }
 
 .seminar-title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 15px;
   text-align: left;
 }
 
 .seminar-date {
-  margin: 10px 0;
-  font-size: 16px;
+  margin: 8px 0;
+  font-size: 14px;
   text-align: left;
 }
 
 .seminar-speaker {
-  margin: 20px 0;
-  font-size: 16px;
+  margin: 15px 0;
+  font-size: 14px;
   text-align: center;
 }
 
 .speaker-image {
-  margin-top: 20px;
+  margin-top: 15px;
   text-align: center;
 }
 
 .speaker-image img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #ddd;
 }
 
 .seminar-abstract {
-  margin: 10px 0;
-  font-size: 16px;
-  line-height: 1.6;
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.5;
   text-align: left;
   font-style: italic;
+  max-height: 150px;
+  overflow-y: auto;
 }
 
 .seminar-link {
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
 /* Category classes for filtering */
@@ -158,6 +163,25 @@ subtitle:
 
 .past {
   display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .seminar-grid {
+    gap: 15px;
+  }
+  
+  .seminar-card {
+    width: calc(50% - 15px);
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 576px) {
+  .seminar-card {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 </style>
 
@@ -192,7 +216,7 @@ subtitle:
   <!-- Upcoming Seminar 1 -->
   <div class="seminar-card upcoming">
     <div class="seminar-title">Vision Language Models See What You Want but not What You See</div>
-    <div class="seminar-date">May 15, 2024 | 2:00 PM Eastern Time</div>
+    <div class="seminar-date">May 15, 2024 | 2:00 PM ET</div>
     <div class="seminar-speaker">
       <a href="https://example.com/qingying-gao">Qingying Gao (Johns Hopkins University)</a>
     </div>
@@ -200,7 +224,7 @@ subtitle:
       <img src="/assets/images/members/qingying_gao.jpg" alt="Qingying Gao" onerror="this.src='/assets/images/members/placeholder.jpg'">
     </div>
     <div class="seminar-abstract">
-      Knowing others' intentions and taking others' perspectives are two core components of human intelligence that are considered to be instantiations of theory-of-mind. In this talk, I will discuss our recent work investigating intentionality understanding and level-2 perspective-taking in Vision Language Models (VLMs). We found VLMs achieving high performance on intentionality understanding but low performance on level-2 perspective-taking, suggesting a potential dissociation between simulation-based and theory-based theory-of-mind abilities in VLMs.
+      Knowing others' intentions and taking others' perspectives are two core components of human intelligence that are considered to be instantiations of theory-of-mind. In this talk, I will discuss our recent work investigating intentionality understanding and level-2 perspective-taking in Vision Language Models (VLMs).
     </div>
     <div class="seminar-link">
       <a href="https://zoom.us/link">Zoom Link</a>
@@ -210,7 +234,7 @@ subtitle:
   <!-- Upcoming Seminar 2 -->
   <div class="seminar-card upcoming">
     <div class="seminar-title">Developmental Trajectories in Large Language Models</div>
-    <div class="seminar-date">June 5, 2024 | 3:00 PM Eastern Time</div>
+    <div class="seminar-date">June 5, 2024 | 3:00 PM ET</div>
     <div class="seminar-speaker">
       <a href="https://example.com/hokin-deng">Hokin Deng (Carnegie Mellon University)</a>
     </div>
@@ -218,7 +242,43 @@ subtitle:
       <img src="/assets/images/members/hokin_deng.jpg" alt="Hokin Deng" onerror="this.src='/assets/images/members/placeholder.jpg'">
     </div>
     <div class="seminar-abstract">
-      This talk explores how large language models acquire capabilities in a sequence that mimics human cognitive development. Drawing parallels between the training progression of LLMs and the stages of child development, we examine whether these models follow similar developmental trajectories and what this means for building more human-like AI systems. We will discuss empirical findings from our recent work evaluating different-sized models on developmental psychology inspired tasks.
+      This talk explores how large language models acquire capabilities in a sequence that mimics human cognitive development. Drawing parallels between the training progression of LLMs and the stages of child development.
+    </div>
+    <div class="seminar-link">
+      <a href="https://zoom.us/link">Zoom Link</a>
+    </div>
+  </div>
+
+  <!-- Upcoming Seminar 3 -->
+  <div class="seminar-card upcoming">
+    <div class="seminar-title">Cognitive Foundations of Learning in AI Systems</div>
+    <div class="seminar-date">June 20, 2024 | 1:00 PM ET</div>
+    <div class="seminar-speaker">
+      <a href="https://example.com/haoran-sun">Haoran Sun (Johns Hopkins University)</a>
+    </div>
+    <div class="speaker-image">
+      <img src="/assets/images/members/haoran_sun.jpg" alt="Haoran Sun" onerror="this.src='/assets/images/members/placeholder.jpg'">
+    </div>
+    <div class="seminar-abstract">
+      This seminar examines how insights from cognitive development can inform better learning algorithms. We'll explore how fundamental cognitive capabilities like object permanence and causal reasoning might be incorporated into AI learning systems.
+    </div>
+    <div class="seminar-link">
+      <a href="https://zoom.us/link">Zoom Link</a>
+    </div>
+  </div>
+
+  <!-- Upcoming Seminar 4 -->
+  <div class="seminar-card upcoming">
+    <div class="seminar-title">Building Intrinsic Motivation in Reinforcement Learning</div>
+    <div class="seminar-date">July 10, 2024 | 11:00 AM ET</div>
+    <div class="seminar-speaker">
+      <a href="https://example.com/yijiang-li">Yijiang Li (UC San Diego)</a>
+    </div>
+    <div class="speaker-image">
+      <img src="/assets/images/members/yijiang_li.jpg" alt="Yijiang Li" onerror="this.src='/assets/images/members/placeholder.jpg'">
+    </div>
+    <div class="seminar-abstract">
+      How do we build AI systems that explore and learn from their environment without explicit rewards? This talk examines approaches to intrinsic motivation inspired by developmental psychology and their implementation in RL agents.
     </div>
     <div class="seminar-link">
       <a href="https://zoom.us/link">Zoom Link</a>
@@ -228,15 +288,15 @@ subtitle:
   <!-- Past Seminar 1 -->
   <div class="seminar-card past">
     <div class="seminar-title">Infant-Inspired Learning in Computer Vision Models</div>
-    <div class="seminar-date">March 10, 2024 | 1:00 PM Eastern Time</div>
+    <div class="seminar-date">March 10, 2024 | 1:00 PM ET</div>
     <div class="seminar-speaker">
-      <a href="https://example.com/haiyun-lyu">Haiyun Lyu (University of North Carolina at Chapel Hill)</a>
+      <a href="https://example.com/haiyun-lyu">Haiyun Lyu (UNC Chapel Hill)</a>
     </div>
     <div class="speaker-image">
       <img src="/assets/images/members/haiyun_lyu.jpg" alt="Haiyun Lyu" onerror="this.src='/assets/images/members/placeholder.jpg'">
     </div>
     <div class="seminar-abstract">
-      In this talk, I discussed how principles from infant visual development can inform the architecture and training of computer vision models. By incorporating constraints and learning mechanisms observed in human infants, we can create more sample-efficient and interpretable models. The talk covered both theoretical foundations and practical implementations, with a focus on object recognition and scene understanding tasks.
+      In this talk, I discussed how principles from infant visual development can inform the architecture and training of computer vision models. By incorporating constraints and learning mechanisms observed in human infants.
     </div>
     <div class="seminar-link">
       <a href="https://youtube.com/recording">Recording</a>
@@ -245,8 +305,8 @@ subtitle:
 
   <!-- Past Seminar 2 -->
   <div class="seminar-card past">
-    <div class="seminar-title">Embodied Cognition and AI: Lessons from Child Development</div>
-    <div class="seminar-date">February 15, 2024 | 11:00 AM Eastern Time</div>
+    <div class="seminar-title">Embodied Cognition and AI</div>
+    <div class="seminar-date">February 15, 2024 | 11:00 AM ET</div>
     <div class="seminar-speaker">
       <a href="https://example.com/dezhi-luo">Dezhi Luo (University of Michigan)</a>
     </div>
@@ -254,7 +314,43 @@ subtitle:
       <img src="/assets/images/members/dezhi_luo.jpg" alt="Dezhi Luo" onerror="this.src='/assets/images/members/placeholder.jpg'">
     </div>
     <div class="seminar-abstract">
-      This talk explored the role of embodiment in cognitive development and its implications for AI. Drawing from studies on how children learn through physical interaction with their environment, I discussed approaches to integrating embodied learning principles into artificial intelligence systems. The presentation highlighted recent advances in robotics and reinforcement learning that draw inspiration from developmental psychology and cognitive science.
+      This talk explored the role of embodiment in cognitive development and its implications for AI. Drawing from studies on how children learn through physical interaction with their environment.
+    </div>
+    <div class="seminar-link">
+      <a href="https://youtube.com/recording">Recording</a>
+    </div>
+  </div>
+  
+  <!-- Past Seminar 3 -->
+  <div class="seminar-card past">
+    <div class="seminar-title">Theory of Mind in Multimodal Learning</div>
+    <div class="seminar-date">January 25, 2024 | 2:00 PM ET</div>
+    <div class="seminar-speaker">
+      <a href="https://example.com/jane-doe">Jane Doe (Stanford University)</a>
+    </div>
+    <div class="speaker-image">
+      <img src="/assets/images/members/placeholder.jpg" alt="Jane Doe">
+    </div>
+    <div class="seminar-abstract">
+      This seminar explored how theory of mind can be implemented in multimodal AI systems. We discussed computational approaches to modeling beliefs, intentions, and perspectives in language and vision models.
+    </div>
+    <div class="seminar-link">
+      <a href="https://youtube.com/recording">Recording</a>
+    </div>
+  </div>
+  
+  <!-- Past Seminar 4 -->
+  <div class="seminar-card past">
+    <div class="seminar-title">Language Acquisition in Children and AI</div>
+    <div class="seminar-date">December 10, 2023 | 10:00 AM ET</div>
+    <div class="seminar-speaker">
+      <a href="https://example.com/john-smith">John Smith (MIT)</a>
+    </div>
+    <div class="speaker-image">
+      <img src="/assets/images/members/placeholder.jpg" alt="John Smith">
+    </div>
+    <div class="seminar-abstract">
+      This talk compared language acquisition processes in children with current approaches to training large language models. We examined key differences and opportunities for more human-like language learning in AI systems.
     </div>
     <div class="seminar-link">
       <a href="https://youtube.com/recording">Recording</a>
