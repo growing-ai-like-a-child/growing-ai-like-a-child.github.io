@@ -7,7 +7,6 @@ subtitle:
 <center>
 <div class="assets">
 <a href="mailto:growing.ai.like.a.child@gmail.com" target="_blank">[Contact Us]</a>
-<a href="https://github.com/growing-ai-like-a-child" target="_blank">[Github]</a>
 </div>
 </center>
 

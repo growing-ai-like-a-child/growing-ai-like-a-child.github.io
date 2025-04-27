@@ -221,7 +221,7 @@ subtitle:
       <a href="https://example.com/qingying-gao">Qingying Gao (Johns Hopkins University)</a>
     </div>
     <div class="speaker-image">
-      <img src="/assets/images/members/qingying_gao.jpg" alt="Qingying Gao" onerror="this.src='/assets/images/members/placeholder.jpg'">
+      <img src="/assets/images/members/qingying_gao.jpg" alt="Qingying Gao">
     </div>
     <div class="seminar-abstract">
       Knowing others' intentions and taking others' perspectives are two core components of human intelligence that are considered to be instantiations of theory-of-mind. In this talk, I will discuss our recent work investigating intentionality understanding and level-2 perspective-taking in Vision Language Models (VLMs).
@@ -239,7 +239,7 @@ subtitle:
       <a href="https://example.com/hokin-deng">Hokin Deng (Carnegie Mellon University)</a>
     </div>
     <div class="speaker-image">
-      <img src="/assets/images/members/hokin_deng.jpg" alt="Hokin Deng" onerror="this.src='/assets/images/members/placeholder.jpg'">
+      <img src="/assets/images/members/hokin_deng.jpg" alt="Hokin Deng">
     </div>
     <div class="seminar-abstract">
       This talk explores how large language models acquire capabilities in a sequence that mimics human cognitive development. Drawing parallels between the training progression of LLMs and the stages of child development.
@@ -257,7 +257,7 @@ subtitle:
       <a href="https://example.com/haoran-sun">Haoran Sun (Johns Hopkins University)</a>
     </div>
     <div class="speaker-image">
-      <img src="/assets/images/members/haoran_sun.jpg" alt="Haoran Sun" onerror="this.src='/assets/images/members/placeholder.jpg'">
+      <img src="/assets/images/members/haoran_sun.jpg" alt="Haoran Sun">
     </div>
     <div class="seminar-abstract">
       This seminar examines how insights from cognitive development can inform better learning algorithms. We'll explore how fundamental cognitive capabilities like object permanence and causal reasoning might be incorporated into AI learning systems.
@@ -275,7 +275,7 @@ subtitle:
       <a href="https://example.com/yijiang-li">Yijiang Li (UC San Diego)</a>
     </div>
     <div class="speaker-image">
-      <img src="/assets/images/members/yijiang_li.jpg" alt="Yijiang Li" onerror="this.src='/assets/images/members/placeholder.jpg'">
+      <img src="/assets/images/members/yijiang_li.jpg" alt="Yijiang Li">
     </div>
     <div class="seminar-abstract">
       How do we build AI systems that explore and learn from their environment without explicit rewards? This talk examines approaches to intrinsic motivation inspired by developmental psychology and their implementation in RL agents.
@@ -293,7 +293,7 @@ subtitle:
       <a href="https://example.com/haiyun-lyu">Haiyun Lyu (UNC Chapel Hill)</a>
     </div>
     <div class="speaker-image">
-      <img src="/assets/images/members/haiyun_lyu.jpg" alt="Haiyun Lyu" onerror="this.src='/assets/images/members/placeholder.jpg'">
+      <img src="/assets/images/members/haiyun_lyu.jpg" alt="Haiyun Lyu">
     </div>
     <div class="seminar-abstract">
       In this talk, I discussed how principles from infant visual development can inform the architecture and training of computer vision models. By incorporating constraints and learning mechanisms observed in human infants.
@@ -311,7 +311,7 @@ subtitle:
       <a href="https://example.com/dezhi-luo">Dezhi Luo (University of Michigan)</a>
     </div>
     <div class="speaker-image">
-      <img src="/assets/images/members/dezhi_luo.jpg" alt="Dezhi Luo" onerror="this.src='/assets/images/members/placeholder.jpg'">
+      <img src="/assets/images/members/dezhi_luo.jpg" alt="Dezhi Luo">
     </div>
     <div class="seminar-abstract">
       This talk explored the role of embodiment in cognitive development and its implications for AI. Drawing from studies on how children learn through physical interaction with their environment.
