@@ -15,12 +15,14 @@ subtitle:
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   margin-top: 40px;
 }
 
 .member-card {
-  width: 280px;
+  width: calc(25% - 15px);
+  min-width: 220px;
+  max-width: 280px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -81,7 +83,19 @@ subtitle:
   text-decoration: underline;
 }
 
+@media (max-width: 992px) {
+  .member-card {
+    width: calc(33.33% - 15px);
+  }
+}
+
 @media (max-width: 768px) {
+  .member-card {
+    width: calc(50% - 15px);
+  }
+}
+
+@media (max-width: 480px) {
   .member-card {
     width: 100%;
     max-width: 320px;
@@ -92,7 +106,7 @@ subtitle:
 <div class="member-grid">
   <!-- Member 1 -->
   <div class="member-card">
-    <img src="/assets/images/members/qingying_gao.jpg" alt="Qingying Gao" class="member-photo" onerror="this.src='/assets/images/members/placeholder.jpg'">
+    <img src="/assets/images/members/qingying_gao.jpg" alt="Qingying Gao" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">Qingying Gao</h3>
       <div class="member-affiliation">Johns Hopkins University</div>
@@ -107,7 +121,7 @@ subtitle:
   
   <!-- Member 2 -->
   <div class="member-card">
-    <img src="/assets/images/members/yijiang_li.jpg" alt="Yijiang Li" class="member-photo" onerror="this.src='/assets/images/members/placeholder.jpg'">
+    <img src="/assets/images/members/yijiang_li.jpg" alt="Yijiang Li" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">Yijiang Li</h3>
       <div class="member-affiliation">University of California, San Diego</div>
@@ -122,7 +136,7 @@ subtitle:
   
   <!-- Member 3 -->
   <div class="member-card">
-    <img src="/assets/images/members/haiyun_lyu.jpg" alt="Haiyun Lyu" class="member-photo" onerror="this.src='/assets/images/members/placeholder.jpg'">
+    <img src="/assets/images/members/haiyun_lyu.jpg" alt="Haiyun Lyu" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">Haiyun Lyu</h3>
       <div class="member-affiliation">University of North Carolina at Chapel Hill</div>
@@ -137,7 +151,7 @@ subtitle:
   
   <!-- Member 4 -->
   <div class="member-card">
-    <img src="/assets/images/members/haoran_sun.jpg" alt="Haoran Sun" class="member-photo" onerror="this.src='/assets/images/members/placeholder.jpg'">
+    <img src="/assets/images/members/haoran_sun.jpg" alt="Haoran Sun" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">Haoran Sun</h3>
       <div class="member-affiliation">Johns Hopkins University</div>
@@ -152,7 +166,7 @@ subtitle:
   
   <!-- Member 5 -->
   <div class="member-card">
-    <img src="/assets/images/members/dezhi_luo.jpg" alt="Dezhi Luo" class="member-photo" onerror="this.src='/assets/images/members/placeholder.jpg'">
+    <img src="/assets/images/members/dezhi_luo.jpg" alt="Dezhi Luo" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">Dezhi Luo</h3>
       <div class="member-affiliation">University of Michigan</div>
@@ -184,7 +198,7 @@ subtitle:
 <div style="text-align: center; margin-top: 40px; padding: 20px; background-color: #f9f9f9; border-radius: 10px;">
   <h3 style="color: #333; margin-bottom: 15px;">Join Us</h3>
   <p style="color: #555; max-width: 600px; margin: 0 auto 20px auto;">
-    We're a community of passionate people who are interested in and have deep conviction in cognitive AI, developmental psychology, and scaling law of intelligence.
+    We're a community of passionate people who have deep conviction in the developmental approach towards intelligence.
   </p>
   <a href="mailto:growing.ai.like.a.child@gmail.com" style="display: inline-block; background-color: #0366d6; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: 500;">Contact Us</a>
 </div> 
