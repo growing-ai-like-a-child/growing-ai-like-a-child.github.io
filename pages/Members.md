@@ -1,15 +1,16 @@
 ---
 layout: page
-title: Team Members
+title: Active Members
 subtitle: 
 ---
+<!-- 
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
 <div class="assets">
 <a href="mailto:growing.ai.like.a.child@gmail.com" target="_blank">[Contact Us]</a>
 </div>
 </center>
-
+-->
 <style>
 .member-grid {
   display: flex;
@@ -107,7 +108,7 @@ subtitle:
 <div class="member-grid">
 
   <div class="member-card">
-    <a href="https://hokindeng.com" target="_blank">
+    <a href="https://www.google.com" target="_blank">
       <img src="/img/members/hokin_deng.jpg" alt="Hokin Deng" class="member-photo">
     </a>
     <div class="member-info">
@@ -116,7 +117,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://yijiang-li.com" target="_blank">
+    <a href="https://www.google.com" target="_blank">
       <img src="/img/members/yijiang_li.jpg" alt="Yijiang Li" class="member-photo">
     </a>
     <div class="member-info">
@@ -125,7 +126,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://dezhiluo.com" target="_blank">
+    <a href="https://www.google.com" target="_blank">
       <img src="/img/members/dezhi_luo.jpg" alt="Dezhi Luo" class="member-photo">
     </a>
     <div class="member-info">
@@ -134,22 +135,122 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://qingyinggao.com" target="_blank">
+    <a href="https://www.google.com" target="_blank">
       <img src="/img/members/qingying_gao.jpg" alt="Qingying Gao" class="member-photo">
     </a>
     <div class="member-info">
       <div class="member-affiliation">Johns Hopkins University</div>
     </div>
   </div>
+
+  <div class="member-card">
+    <a href="https://www.google.com" target="_blank">
+      <img src="/img/members/ziqiao_ma.jpg" alt="Ziqiao Ma" class="member-photo">
+    </a>
+    <div class="member-info">
+      <div class="member-affiliation">University of Michigan</div>
+    </div>
+  </div>
   
   <div class="member-card">
-    <a href="https://haoransun.com" target="_blank">
+    <a href="https://www.google.com" target="_blank">
+      <img src="/img/members/emmy_liu.jpg" alt="Emmy Liu" class="member-photo">
+    </a>
+    <div class="member-info">
+      <div class="member-affiliation">Carnegie Mellon University</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://www.google.com" target="_blank">
+      <img src="/img/members/icy.jpg" alt="Icy Wang" class="member-photo">
+    </a>
+    <div class="member-info">
+      <div class="member-affiliation">Emory University</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://www.google.com" target="_blank">
+      <img src="/img/members/tianwei.jpg" alt="Tianwei Zhao" class="member-photo">
+    </a>
+    <div class="member-info">
+      <div class="member-affiliation">Johns Hopkins University</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://www.google.com" target="_blank">
+      <img src="/img/members/yixuan.jpg" alt="Yixuan Wang" class="member-photo">
+    </a>
+    <div class="member-info">
+      <div class="member-affiliation">University of Florida</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://www.google.com" target="_blank">
+      <img src="/img/members/mark.jpg" alt="Mark Wang" class="member-photo">
+    </a>
+    <div class="member-info">
+      <div class="member-affiliation">University of California, Los Angeles</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://www.google.com" target="_blank">
+      <img src="/img/members/pooyan.jpg" alt="Pooyan Rahmanzadehgervi" class="member-photo">
+    </a>
+    <div class="member-info">
+      <div class="member-affiliation">Auburn University</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://www.google.com" target="_blank">
+      <img src="/img/members/avi.jpg" alt="Avi Bhattacharya" class="member-photo">
+    </a>
+    <div class="member-info">
+      <div class="member-affiliation">University of Michigan</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://www.google.com" target="_blank">
+      <img src="/img/members/zory.jpg" alt="Zory Zhang" class="member-photo">
+    </a>
+    <div class="member-info">
+      <div class="member-affiliation">Brown University</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://www.google.com" target="_blank">
+      <img src="/img/members/pingyuan.jpg" alt="Pingyuan Feng" class="member-photo">
+    </a>
+    <div class="member-info">
+      <div class="member-affiliation">Columbia University</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://www.google.com" target="_blank">
+      <img src="/img/members/suyang.jpg" alt="Suyang Yu" class="member-photo">
+    </a>
+    <div class="member-info">
+      <div class="member-affiliation">University of Washington</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://www.google.com" target="_blank">
       <img src="/img/members/haoran_sun.jpg" alt="Haoran Sun" class="member-photo">
     </a>
     <div class="member-info">
       <div class="member-affiliation">Johns Hopkins University</div>
     </div>
   </div>
+
 </div>
 
 <div style="text-align: center; margin-top: 40px; padding: 20px; background-color: #f9f9f9; border-radius: 10px;">
