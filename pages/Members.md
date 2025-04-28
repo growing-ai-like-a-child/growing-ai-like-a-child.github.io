@@ -116,7 +116,7 @@ subtitle:
 <div class="member-grid">
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://hokindeng.github.io/" target="_blank">
       <img src="/img/members/hokin_deng.jpg" alt="Hokin Deng" class="member-photo">
     </a>
     <div class="member-info">
@@ -126,7 +126,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://williamium3000.github.io/" target="_blank">
       <img src="/img/members/yijiang_li.jpg" alt="Yijiang Li" class="member-photo">
     </a>
     <div class="member-info">
@@ -136,7 +136,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://ihzedoul.com/" target="_blank">
       <img src="/img/members/dezhi_luo.jpg" alt="Dezhi Luo" class="member-photo">
     </a>
     <div class="member-info">
@@ -146,7 +146,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://kaiagaoqy.github.io/personalwebsite/" target="_blank">
       <img src="/img/members/qingying_gao.jpg" alt="Qingying Gao" class="member-photo">
     </a>
     <div class="member-info">
@@ -156,7 +156,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://mars-tin.github.io/" target="_blank">
       <img src="/img/members/ziqiao_ma.jpg" alt="Ziqiao Ma" class="member-photo">
     </a>
     <div class="member-info">
@@ -166,7 +166,7 @@ subtitle:
   </div>
   
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://nightingal3.github.io/" target="_blank">
       <img src="/img/members/emmy_liu.jpg" alt="Emmy Liu" class="member-photo">
     </a>
     <div class="member-info">
@@ -188,7 +188,7 @@ subtitle:
   --> 
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://scholar.google.com/citations?user=UA270iMAAAAJ&hl=en" target="_blank">
       <img src="/img/members/icy.jpg" alt="Icy Wang" class="member-photo">
     </a>
     <div class="member-info">
@@ -198,7 +198,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://openreview.net/profile?id=~Tianwei_Zhao1" target="_blank">
       <img src="/img/members/tianwei.jpg" alt="Tianwei Zhao" class="member-photo">
     </a>
     <div class="member-info">
@@ -208,7 +208,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://openreview.net/profile?id=~Yixuan_Wang7" target="_blank">
       <img src="/img/members/yixuan.jpg" alt="Yixuan Wang" class="member-photo">
     </a>
     <div class="member-info">
@@ -230,7 +230,7 @@ subtitle:
   -->
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://pooyanrg.me/" target="_blank">
       <img src="/img/members/pooyan.jpg" alt="Pooyan Rahmanzadehgervi" class="member-photo">
     </a>
     <div class="member-info">
@@ -240,7 +240,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://www.linkedin.com/in/avi-bhattacharya-a9b052210/" target="_blank">
       <img src="/img/members/avi.jpg" alt="Avi Bhattacharya" class="member-photo">
     </a>
     <div class="member-info">
@@ -250,7 +250,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://zoryzhang.notion.site/" target="_blank">
       <img src="/img/members/zory.jpg" alt="Zory Zhang" class="member-photo">
     </a>
     <div class="member-info">
@@ -282,9 +282,8 @@ subtitle:
 </div>
 
 <div style="text-align: center; margin-top: 60px; padding: 30px; background-color: #f8f9fa; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
-  <h3 style="color: #333; margin-bottom: 15px; font-size: 24px;">Join Us</h3>
+  <h3 style="color: #333; margin-bottom: 15px; font-size: 24px;"><a href="https://join.slack.com/t/growingailikeachild/shared_invite/zt-309yqd0sl-W8xzOkdBPha1Jh5rnee78A" target="_blank">Join Us</a></h3>
   <p style="color: #555; max-width: 700px; margin: 0 auto 25px auto; font-size: 16px; line-height: 1.6;">
     We're a community of passionate people who have deep conviction in the developmental approach towards intelligence.
   </p>
-  <a href="mailto:growing.ai.like.a.child@gmail.com" style="display: inline-block; background-color: #0366d6; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 500; transition: all 0.3s ease;">Contact Us</a>
 </div> 
