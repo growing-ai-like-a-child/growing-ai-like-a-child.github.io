@@ -175,6 +175,7 @@ subtitle:
     </div>
   </div>
 
+  <!-- 
   <div class="member-card">
     <a href="https://www.google.com" target="_blank">
       <img src="/img/members/suyang.jpg" alt="Suyang Yu" class="member-photo">
@@ -184,6 +185,7 @@ subtitle:
       <div class="member-affiliation">University of Washington</div>
     </div>
   </div>
+  --> 
 
   <div class="member-card">
     <a href="https://www.google.com" target="_blank">
@@ -215,6 +217,7 @@ subtitle:
     </div>
   </div>
 
+  <!-- 
   <div class="member-card">
     <a href="https://www.google.com" target="_blank">
       <img src="/img/members/mark.jpg" alt="Mark Wang" class="member-photo">
@@ -224,6 +227,7 @@ subtitle:
       <div class="member-affiliation">University of California, Los Angeles</div>
     </div>
   </div>
+  -->
 
   <div class="member-card">
     <a href="https://www.google.com" target="_blank">
