@@ -1,0 +1,97 @@
+# Upcoming Seminars
+- title: Vision Language Models See What You Want but not What You See
+  date: May 15, 2024
+  time: 2:00 PM ET
+  speaker: Qingying Gao
+  affiliation: Johns Hopkins University
+  url: https://example.com/qingying-gao
+  image: /assets/images/members/qingying_gao.jpg
+  abstract: Knowing others' intentions and taking others' perspectives are two core components of human intelligence that are considered to be instantiations of theory-of-mind. In this talk, I will discuss our recent work investigating intentionality understanding and level-2 perspective-taking in Vision Language Models (VLMs).
+  link: https://zoom.us/link
+  link_text: Zoom Link
+  type: upcoming
+
+- title: Developmental Trajectories in Large Language Models
+  date: June 5, 2024
+  time: 3:00 PM ET
+  speaker: Hokin Deng
+  affiliation: Carnegie Mellon University
+  url: https://example.com/hokin-deng
+  image: /assets/images/members/hokin_deng.jpg
+  abstract: This talk explores how large language models acquire capabilities in a sequence that mimics human cognitive development. Drawing parallels between the training progression of LLMs and the stages of child development.
+  link: https://zoom.us/link
+  link_text: Zoom Link
+  type: upcoming
+
+- title: Cognitive Foundations of Learning in AI Systems
+  date: June 20, 2024
+  time: 1:00 PM ET
+  speaker: Haoran Sun
+  affiliation: Johns Hopkins University
+  url: https://example.com/haoran-sun
+  image: /assets/images/members/haoran_sun.jpg
+  abstract: This seminar examines how insights from cognitive development can inform better learning algorithms. We'll explore how fundamental cognitive capabilities like object permanence and causal reasoning might be incorporated into AI learning systems.
+  link: https://zoom.us/link
+  link_text: Zoom Link
+  type: upcoming
+
+- title: Building Intrinsic Motivation in Reinforcement Learning
+  date: July 10, 2024
+  time: 11:00 AM ET
+  speaker: Yijiang Li
+  affiliation: UC San Diego
+  url: https://example.com/yijiang-li
+  image: /assets/images/members/yijiang_li.jpg
+  abstract: How do we build AI systems that explore and learn from their environment without explicit rewards? This talk examines approaches to intrinsic motivation inspired by developmental psychology and their implementation in RL agents.
+  link: https://zoom.us/link
+  link_text: Zoom Link
+  type: upcoming
+
+# Past Seminars
+- title: Infant-Inspired Learning in Computer Vision Models
+  date: March 10, 2024
+  time: 1:00 PM ET
+  speaker: Haiyun Lyu
+  affiliation: UNC Chapel Hill
+  url: https://example.com/haiyun-lyu
+  image: /assets/images/members/haiyun_lyu.jpg
+  abstract: In this talk, I discussed how principles from infant visual development can inform the architecture and training of computer vision models. By incorporating constraints and learning mechanisms observed in human infants.
+  link: https://youtube.com/recording
+  link_text: Recording
+  type: past
+
+- title: Embodied Cognition and AI
+  date: February 15, 2024
+  time: 11:00 AM ET
+  speaker: Dezhi Luo
+  affiliation: University of Michigan
+  url: https://example.com/dezhi-luo
+  image: /assets/images/members/dezhi_luo.jpg
+  abstract: This talk explored the role of embodiment in cognitive development and its implications for AI. Drawing from studies on how children learn through physical interaction with their environment.
+  link: https://youtube.com/recording
+  link_text: Recording
+  type: past
+
+- title: Theory of Mind in Multimodal Learning
+  date: January 25, 2024
+  time: 2:00 PM ET
+  speaker: Jane Doe
+  affiliation: Stanford University
+  url: https://example.com/jane-doe
+  image: /assets/images/members/placeholder.jpg
+  abstract: This seminar explored how theory of mind can be implemented in multimodal AI systems. We discussed computational approaches to modeling beliefs, intentions, and perspectives in language and vision models.
+  link: https://youtube.com/recording
+  link_text: Recording
+  type: past
+
+- title: Language Acquisition in Children and AI
+  date: December 10, 2023
+  time: 10:00 AM ET
+  speaker: John Smith
+  affiliation: MIT
+  url: https://example.com/john-smith
+  image: /assets/images/members/placeholder.jpg
+  abstract: This talk compared language acquisition processes in children with current approaches to training large language models. We examined key differences and opportunities for more human-like language learning in AI systems.
+  link: https://youtube.com/recording
+  link_text: Recording
+  type: past 
