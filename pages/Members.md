@@ -181,7 +181,7 @@ subtitle:
   
   <!-- Member 6 -->
   <div class="member-card">
-    <img src="/assets/images/members/hokin_deng.jpg" alt="Hokin Deng" class="member-photo" onerror="this.src='/assets/images/members/placeholder.jpg'">
+    <img src="/assets/images/members/hokin_deng.jpg" alt="Hokin Deng" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">Hokin Deng</h3>
       <div class="member-affiliation">Carnegie Mellon University</div>
