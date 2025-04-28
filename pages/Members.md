@@ -260,7 +260,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://psychology.columbia.edu/content/pinyuan-feng" target="_blank">
       <img src="/img/members/pingyuan.jpg" alt="Pingyuan Feng" class="member-photo">
     </a>
     <div class="member-info">
@@ -270,7 +270,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://scholar.google.com/citations?user=eLRxn6QAAAAJ&hl=zh-CN" target="_blank">
       <img src="/img/members/haoran_sun.jpg" alt="Haoran Sun" class="member-photo">
     </a>
     <div class="member-info">
