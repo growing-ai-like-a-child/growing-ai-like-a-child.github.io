@@ -117,7 +117,7 @@ subtitle:
 
   <div class="member-card">
     <a href="https://yijiang-li.com" target="_blank">
-      <img src="/img/members/yijiang_li.png" alt="Yijiang Li" class="member-photo">
+      <img src="/img/members/yijiang_li.jpg" alt="Yijiang Li" class="member-photo">
     </a>
     <div class="member-info">
       <div class="member-affiliation">University of California, San Diego</div>
