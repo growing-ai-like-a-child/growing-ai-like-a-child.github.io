@@ -18,12 +18,15 @@ subtitle:
   justify-content: center;
   gap: 24px;
   margin-top: 40px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .member-card {
   width: calc(25% - 18px);
-  min-width: 200px;
-  max-width: 300px;
+  min-width: 220px;
+  max-width: 340px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
