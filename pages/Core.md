@@ -54,7 +54,7 @@ Our study examines 12 core cognitive abilities organized across three developmen
 </ul>
 
 <figure style="text-align: center; margin: 25px 0;">
-    <img src="/img/Core/final_2.png" alt="Examples from CoreCognition dataset" style="max-width: 90%; height: auto;">
+    <img src="/img/Core/final_2.jpg" alt="Examples from CoreCognition dataset" style="max-width: 90%; height: auto;">
     <figcaption style="margin-top: 10px; font-style: italic;">Examples of tasks from the CoreCognition dataset, illustrating how each cognitive ability is assessed.</figcaption>
 </figure>
 
