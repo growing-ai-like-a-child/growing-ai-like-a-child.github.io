@@ -20,7 +20,7 @@ subtitle:
 }
 
 .member-card {
-  width: calc(25% - 15px);
+  width: calc(20% - 15px);
   min-width: 220px;
   max-width: 280px;
   border-radius: 10px;
