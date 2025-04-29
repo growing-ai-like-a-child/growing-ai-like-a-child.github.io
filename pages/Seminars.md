@@ -183,6 +183,113 @@ subtitle:
     max-width: 300px;
   }
 }
+
+/* Featured seminar styling */
+.featured-seminar {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(3, 102, 214, 0.2);
+  background-color: #f5f9ff;
+  border: 2px solid #0366d6;
+  position: relative;
+  overflow: hidden;
+}
+
+.featured-seminar::before {
+  content: "FEATURED SEMINAR";
+  position: absolute;
+  top: 10px;
+  right: -35px;
+  background-color: #0366d6;
+  color: white;
+  padding: 5px 40px;
+  font-size: 12px;
+  font-weight: bold;
+  transform: rotate(45deg);
+}
+
+.featured-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.featured-image {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.featured-image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0366d6;
+}
+
+.featured-details {
+  flex: 2;
+  min-width: 300px;
+}
+
+.featured-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #0366d6;
+}
+
+.featured-date {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.featured-speakers {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.featured-abstract {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.featured-materials {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.featured-materials h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #0366d6;
+}
+
+.featured-materials ul {
+  padding-left: 20px;
+}
+
+.featured-materials li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .featured-content {
+    flex-direction: column;
+  }
+  
+  .featured-image {
+    margin: 0 auto;
+  }
+}
 </style>
 
 <div id="intro">
@@ -210,6 +317,36 @@ subtitle:
 <div id="filters" class="button-group">
   <button class="button is-checked" data-filter="upcoming">Upcoming Seminars</button>
   <button class="button" data-filter="past">Past Seminars</button>
+</div>
+
+<!-- Featured Seminar -->
+<div class="featured-seminar upcoming">
+  <div class="featured-content">
+    <div class="featured-image">
+      <img src="/assets/images/members/placeholder.jpg" alt="Freda Shi">
+    </div>
+    <div class="featured-details">
+      <div class="featured-title">Grounding in AI: From Lexicons to Complex Meanings</div>
+      <div class="featured-date">Date & Time: TBD</div>
+      <div class="featured-speakers">
+        <strong>Speaker:</strong> Freda Shi (University of Waterloo)<br>
+        <strong>Host:</strong> Ziqiao Ma
+      </div>
+      <div class="featured-abstract">
+        This comprehensive tutorial explores the concept of grounding in AI, defined as processing primary data with supervision from another source where the two sources have positive mutual information. The talk will connect existing work across visual, acoustic, factual, and cross-lingual grounding.
+      </div>
+      <div class="featured-materials">
+        <h3>Session Overview</h3>
+        <ul>
+          <li><strong>Part I (20min):</strong> Introduction to grounding, reviewing history and presenting a unified definition.</li>
+          <li><strong>Part II (30min):</strong> Learning lexicons through grounding, focusing on word acquisition and multimodal learning.</li>
+          <li><strong>Part III (30min):</strong> Learning syntax through visual and cross-lingual grounding.</li>
+          <li><strong>Part IV (60min):</strong> Learning complex meanings (semantics and pragmatics) through grounding and interaction.</li>
+          <li><strong>Part V (15min):</strong> Discussion on future directions and open problems in grounding research.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="seminar-grid">
@@ -369,6 +506,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const upcomingCards = document.querySelectorAll('.seminar-card.upcoming');
   const pastCards = document.querySelectorAll('.seminar-card.past');
   
+  // Get featured seminar
+  const featuredSeminar = document.querySelector('.featured-seminar');
+  
   // Add click handlers for filter buttons
   upcomingButton.addEventListener('click', function() {
     upcomingButton.classList.add('is-checked');
@@ -377,6 +517,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Show upcoming, hide past
     upcomingCards.forEach(card => card.style.display = 'block');
     pastCards.forEach(card => card.style.display = 'none');
+    
+    // Show featured seminar
+    if (featuredSeminar) {
+      featuredSeminar.style.display = 'block';
+    }
   });
   
   pastButton.addEventListener('click', function() {
@@ -386,10 +531,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // Show past, hide upcoming
     pastCards.forEach(card => card.style.display = 'block');
     upcomingCards.forEach(card => card.style.display = 'none');
+    
+    // Hide featured seminar
+    if (featuredSeminar) {
+      featuredSeminar.style.display = 'none';
+    }
   });
   
   // Initialize with upcoming seminars visible
   upcomingCards.forEach(card => card.style.display = 'block');
   pastCards.forEach(card => card.style.display = 'none');
+  if (featuredSeminar) {
+    featuredSeminar.style.display = 'block';
+  }
 });
 </script> 
