@@ -3,11 +3,12 @@ layout: page
 title: GrowAI Seminars
 subtitle: 
 ---
+
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
 <div class="assets">
-<a href="mailto:growing.ai.like.a.child@gmail.com" target="_blank">[Contact Us]</a>
-<a href="https://github.com/growing-ai-like-a-child" target="_blank">[Github]</a>
+<!-- <a href="mailto:growing.ai.like.a.child@gmail.com" target="_blank">[Contact Us]</a>
+<a href="https://github.com/growing-ai-like-a-child" target="_blank">[Github]</a> -->
 </div>
 </center>
 
@@ -294,7 +295,7 @@ subtitle:
 
 <div id="intro">
   <div id="intro-text">
-    <h1>GrowAI Seminars</h1>
+    <!-- <h1>GrowAI Seminars</h1> -->
     <p>
       GrowAI Seminars is an online series organized by the <a href="https://growing-ai-like-a-child.github.io/">Growing AI Like a Child</a> team. We invite researchers from AI, developmental psychology, cognitive science, and related fields to share insights and work toward understanding how artificial intelligence systems can develop more human-like capabilities through developmental trajectories similar to those of children.
     </p>
