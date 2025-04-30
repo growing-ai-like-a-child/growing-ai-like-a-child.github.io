@@ -350,78 +350,8 @@ subtitle:
 </div>
 
 <div class="seminar-grid">
-  <!-- Upcoming Seminar 1 -->
-  <div class="seminar-card upcoming">
-    <div class="seminar-title">Vision Language Models See What You Want but not What You See</div>
-    <div class="seminar-date">May 15, 2024 | 2:00 PM ET</div>
-    <div class="seminar-speaker">
-      <a href="https://example.com/qingying-gao">Qingying Gao (Johns Hopkins University)</a>
-    </div>
-    <div class="speaker-image">
-      <img src="/assets/images/members/qingying_gao.jpg" alt="Qingying Gao">
-    </div>
-    <div class="seminar-abstract">
-      Knowing others' intentions and taking others' perspectives are two core components of human intelligence that are considered to be instantiations of theory-of-mind. In this talk, I will discuss our recent work investigating intentionality understanding and level-2 perspective-taking in Vision Language Models (VLMs).
-    </div>
-    <div class="seminar-link">
-      <a href="https://zoom.us/link">Zoom Link</a>
-    </div>
-  </div>
-
-  <!-- Upcoming Seminar 2 -->
-  <div class="seminar-card upcoming">
-    <div class="seminar-title">Developmental Trajectories in Large Language Models</div>
-    <div class="seminar-date">June 5, 2024 | 3:00 PM ET</div>
-    <div class="seminar-speaker">
-      <a href="https://example.com/hokin-deng">Hokin Deng (Carnegie Mellon University)</a>
-    </div>
-    <div class="speaker-image">
-      <img src="/assets/images/members/hokin_deng.jpg" alt="Hokin Deng">
-    </div>
-    <div class="seminar-abstract">
-      This talk explores how large language models acquire capabilities in a sequence that mimics human cognitive development. Drawing parallels between the training progression of LLMs and the stages of child development.
-    </div>
-    <div class="seminar-link">
-      <a href="https://zoom.us/link">Zoom Link</a>
-    </div>
-  </div>
-
-  <!-- Upcoming Seminar 3 -->
-  <div class="seminar-card upcoming">
-    <div class="seminar-title">Cognitive Foundations of Learning in AI Systems</div>
-    <div class="seminar-date">June 20, 2024 | 1:00 PM ET</div>
-    <div class="seminar-speaker">
-      <a href="https://example.com/haoran-sun">Haoran Sun (Johns Hopkins University)</a>
-    </div>
-    <div class="speaker-image">
-      <img src="/assets/images/members/haoran_sun.jpg" alt="Haoran Sun">
-    </div>
-    <div class="seminar-abstract">
-      This seminar examines how insights from cognitive development can inform better learning algorithms. We'll explore how fundamental cognitive capabilities like object permanence and causal reasoning might be incorporated into AI learning systems.
-    </div>
-    <div class="seminar-link">
-      <a href="https://zoom.us/link">Zoom Link</a>
-    </div>
-  </div>
-
-  <!-- Upcoming Seminar 4 -->
-  <div class="seminar-card upcoming">
-    <div class="seminar-title">Building Intrinsic Motivation in Reinforcement Learning</div>
-    <div class="seminar-date">July 10, 2024 | 11:00 AM ET</div>
-    <div class="seminar-speaker">
-      <a href="https://example.com/yijiang-li">Yijiang Li (UC San Diego)</a>
-    </div>
-    <div class="speaker-image">
-      <img src="/assets/images/members/yijiang_li.jpg" alt="Yijiang Li">
-    </div>
-    <div class="seminar-abstract">
-      How do we build AI systems that explore and learn from their environment without explicit rewards? This talk examines approaches to intrinsic motivation inspired by developmental psychology and their implementation in RL agents.
-    </div>
-    <div class="seminar-link">
-      <a href="https://zoom.us/link">Zoom Link</a>
-    </div>
-  </div>
-
+  <!-- Remove all original upcoming seminars, keep only past seminars -->
+  
   <!-- Past Seminar 1 -->
   <div class="seminar-card past">
     <div class="seminar-title">Infant-Inspired Learning in Computer Vision Models</div>
