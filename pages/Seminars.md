@@ -335,18 +335,6 @@ subtitle:
       <div class="featured-abstract">
         This comprehensive tutorial explores the concept of grounding in AI, defined as processing primary data with supervision from another source where the two sources have positive mutual information. The talk will connect existing work across visual, acoustic, factual, and cross-lingual grounding.
       </div>
-      <!-- 
-      <div class="featured-materials">
-        <h3>Session Overview</h3>
-        <ul>
-          <li><strong>Part I (20min):</strong> Introduction to grounding, reviewing history and presenting a unified definition.</li>
-          <li><strong>Part II (30min):</strong> Learning lexicons through grounding, focusing on word acquisition and multimodal learning.</li>
-          <li><strong>Part III (30min):</strong> Learning syntax through visual and cross-lingual grounding.</li>
-          <li><strong>Part IV (60min):</strong> Learning complex meanings (semantics and pragmatics) through grounding and interaction.</li>
-          <li><strong>Part V (15min):</strong> Discussion on future directions and open problems in grounding research.</li>
-        </ul>
-      </div>
-      -->
     </div>
   </div>
 </div>
