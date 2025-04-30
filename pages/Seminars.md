@@ -349,10 +349,9 @@ subtitle:
   </div>
 </div>
 
+<!--
 <div class="seminar-grid">
-  <!-- Remove all original upcoming seminars, keep only past seminars -->
   
-  <!-- Past Seminar 1 -->
   <div class="seminar-card past">
     <div class="seminar-title">Infant-Inspired Learning in Computer Vision Models</div>
     <div class="seminar-date">March 10, 2024 | 1:00 PM ET</div>
@@ -370,7 +369,6 @@ subtitle:
     </div>
   </div>
 
-  <!-- Past Seminar 2 -->
   <div class="seminar-card past">
     <div class="seminar-title">Embodied Cognition and AI</div>
     <div class="seminar-date">February 15, 2024 | 11:00 AM ET</div>
@@ -388,7 +386,6 @@ subtitle:
     </div>
   </div>
   
-  <!-- Past Seminar 3 -->
   <div class="seminar-card past">
     <div class="seminar-title">Theory of Mind in Multimodal Learning</div>
     <div class="seminar-date">January 25, 2024 | 2:00 PM ET</div>
@@ -406,7 +403,6 @@ subtitle:
     </div>
   </div>
   
-  <!-- Past Seminar 4 -->
   <div class="seminar-card past">
     <div class="seminar-title">Language Acquisition in Children and AI</div>
     <div class="seminar-date">December 10, 2023 | 10:00 AM ET</div>
@@ -424,6 +420,7 @@ subtitle:
     </div>
   </div>
 </div>
+-->
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
