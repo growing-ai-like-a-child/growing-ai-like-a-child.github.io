@@ -335,6 +335,7 @@ subtitle:
       <div class="featured-abstract">
         This comprehensive tutorial explores the concept of grounding in AI, defined as processing primary data with supervision from another source where the two sources have positive mutual information. The talk will connect existing work across visual, acoustic, factual, and cross-lingual grounding.
       </div>
+      <!-- 
       <div class="featured-materials">
         <h3>Session Overview</h3>
         <ul>
@@ -345,6 +346,7 @@ subtitle:
           <li><strong>Part V (15min):</strong> Discussion on future directions and open problems in grounding research.</li>
         </ul>
       </div>
+      -->
     </div>
   </div>
 </div>
