@@ -299,9 +299,6 @@ subtitle:
     <p style="font-size: 17px; line-height: 1.7; color: #333; margin-bottom: 20px;">
       GrowAI Seminars is an online series organized by the <a href="https://growing-ai-like-a-child.github.io/" style="color: #4A154B; text-decoration: none; border-bottom: 1px dotted #4A154B; transition: all 0.3s ease;">Growing AI Like a Child</a> team. We invite researchers from AI, developmental psychology, cognitive science, and related fields to share insights and work toward understanding how artificial intelligence systems can develop more human-like capabilities through developmental trajectories similar to those of children.
     </p>
-    <p style="font-size: 17px; line-height: 1.7; color: #333;">
-      Join our <a href="https://join.slack.com/t/growingailikeachild/shared_invite/zt-309yqd0sl-W8xzOkdBPha1Jh5rnee78A" style="color: #4A154B; font-weight: bold; text-decoration: none; border-bottom: 1px dotted #4A154B; transition: all 0.3s ease;">Slack</a> if you're interested in giving a talk or listening to upcoming talks.
-    </p>
   </div>
   <div id="intro-image" style="flex: 1; text-align: center;">
     <img src="/img/logo.jpeg" alt="GrowAI Logo" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
@@ -326,7 +323,7 @@ subtitle:
         <strong>Speaker:</strong> Freda Shi (University of Waterloo)<br>
         <strong>Host:</strong> Ziqiao Ma
         <div style="margin-top: 10px;">
-          <img src="/img/members/ziqiao.jpg" alt="Ziqiao Ma" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #ddd;">
+          <img src="/img/members/ziqiao_ma.jpg" alt="Ziqiao Ma" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #ddd;">
         </div>
       </div>
       <div class="featured-abstract">
