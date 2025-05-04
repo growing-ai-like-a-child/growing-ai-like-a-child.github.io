@@ -6,6 +6,7 @@ subtitle: Towards a Better Understanding of the Downstream Impact of Language Mo
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
 <div class="assets">
+<a href="https://arxiv.org/abs/2503.03862" target="_blank">📃 Paper </a>
 <a href="https://github.com/nightingal3/llm-pretraining-behaviours" target="_blank">💻 Code </a>
 </div>
 </center>
