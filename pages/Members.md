@@ -194,6 +194,16 @@ subtitle:
   --> 
 
   <div class="member-card">
+    <a href="https://psychology.columbia.edu/content/pinyuan-feng" target="_blank">
+      <img src="/img/members/pingyuan.jpg" alt="Pingyuan Feng" class="member-photo">
+    </a>
+    <div class="member-info">
+      <h3 class="member-name">Pingyuan Feng</h3>
+      <div class="member-affiliation">Columbia University</div>
+    </div>
+  </div>
+
+  <div class="member-card">
     <a href="https://scholar.google.com/citations?user=UA270iMAAAAJ&hl=en" target="_blank">
       <img src="/img/members/icy.jpg" alt="Icy Wang" class="member-photo">
     </a>
@@ -214,22 +224,12 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://openreview.net/profile?id=~Yixuan_Wang7" target="_blank">
-      <img src="/img/members/yixuan.jpg" alt="Yixuan Wang" class="member-photo">
+    <a href="https://zoryzhang.notion.site/" target="_blank">
+      <img src="/img/members/zory.jpg" alt="Zory Zhang" class="member-photo">
     </a>
     <div class="member-info">
-      <h3 class="member-name">Yixuan Wang</h3>
-      <div class="member-affiliation">University of Florida</div>
-    </div>
-  </div>
-  
-  <div class="member-card">
-    <a href="https://openreview.net/profile?id=~Maijunxian_Wang1" target="_blank">
-      <img src="/img/members/mark.jpg" alt="Mark Wang" class="member-photo">
-    </a>
-    <div class="member-info">
-      <h3 class="member-name">Mark Wang</h3>
-      <div class="member-affiliation">University of California, Los Angeles</div>
+      <h3 class="member-name">Zory Zhang</h3>
+      <div class="member-affiliation">Brown University</div>
     </div>
   </div>
 
@@ -254,22 +254,22 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://zoryzhang.notion.site/" target="_blank">
-      <img src="/img/members/zory.jpg" alt="Zory Zhang" class="member-photo">
+    <a href="https://openreview.net/profile?id=~Maijunxian_Wang1" target="_blank">
+      <img src="/img/members/mark.jpg" alt="Mark Wang" class="member-photo">
     </a>
     <div class="member-info">
-      <h3 class="member-name">Zory Zhang</h3>
-      <div class="member-affiliation">Brown University</div>
+      <h3 class="member-name">Mark Wang</h3>
+      <div class="member-affiliation">University of California, Los Angeles</div>
     </div>
   </div>
 
   <div class="member-card">
-    <a href="https://psychology.columbia.edu/content/pinyuan-feng" target="_blank">
-      <img src="/img/members/pingyuan.jpg" alt="Pingyuan Feng" class="member-photo">
+    <a href="https://openreview.net/profile?id=~Yixuan_Wang7" target="_blank">
+      <img src="/img/members/yixuan.jpg" alt="Yixuan Wang" class="member-photo">
     </a>
     <div class="member-info">
-      <h3 class="member-name">Pingyuan Feng</h3>
-      <div class="member-affiliation">Columbia University</div>
+      <h3 class="member-name">Yixuan Wang</h3>
+      <div class="member-affiliation">University of Florida</div>
     </div>
   </div>
 
