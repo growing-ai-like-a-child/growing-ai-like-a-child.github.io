@@ -293,18 +293,18 @@ subtitle:
 }
 </style>
 
-<div id="intro">
-  <div id="intro-text">
+<div id="intro" class="intro-container" style="display: flex; align-items: center; background: linear-gradient(to right, #f9f9f9, #ffffff); border-radius: 12px; padding: 25px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+  <div id="intro-text" style="flex: 3; padding-right: 30px;">
     <!-- <h1>GrowAI Seminars</h1> -->
-    <p>
-      GrowAI Seminars is an online series organized by the <a href="https://growing-ai-like-a-child.github.io/">Growing AI Like a Child</a> team. We invite researchers from AI, developmental psychology, cognitive science, and related fields to share insights and work toward understanding how artificial intelligence systems can develop more human-like capabilities through developmental trajectories similar to those of children.
+    <p style="font-size: 17px; line-height: 1.7; color: #333; margin-bottom: 20px;">
+      GrowAI Seminars is an online series organized by the <a href="https://growing-ai-like-a-child.github.io/" style="color: #4A154B; text-decoration: none; border-bottom: 1px dotted #4A154B; transition: all 0.3s ease;">Growing AI Like a Child</a> team. We invite researchers from AI, developmental psychology, cognitive science, and related fields to share insights and work toward understanding how artificial intelligence systems can develop more human-like capabilities through developmental trajectories similar to those of children.
     </p>
-    <p>
-      Join our <a href="https://join.slack.com/t/growingailikeachild/shared_invite/zt-309yqd0sl-W8xzOkdBPha1Jh5rnee78A">Slack</a> if you're interested in giving a talk or listening to upcoming talks.
+    <p style="font-size: 17px; line-height: 1.7; color: #333;">
+      Join our <a href="https://join.slack.com/t/growingailikeachild/shared_invite/zt-309yqd0sl-W8xzOkdBPha1Jh5rnee78A" style="color: #4A154B; font-weight: bold; text-decoration: none; border-bottom: 1px dotted #4A154B; transition: all 0.3s ease;">Slack</a> if you're interested in giving a talk or listening to upcoming talks.
     </p>
   </div>
-  <div id="intro-image">
-    <img src="/img/images/logo.jpeg" alt="GrowAI Logo">
+  <div id="intro-image" style="flex: 1; text-align: center;">
+    <img src="/img/logo.jpeg" alt="GrowAI Logo" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </div>
 </div>
 
@@ -325,86 +325,21 @@ subtitle:
       <div class="featured-speakers">
         <strong>Speaker:</strong> Freda Shi (University of Waterloo)<br>
         <strong>Host:</strong> Ziqiao Ma
+        <div style="margin-top: 10px;">
+          <img src="/img/members/ziqiao.jpg" alt="Ziqiao Ma" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #ddd;">
+        </div>
       </div>
       <div class="featured-abstract">
         This comprehensive tutorial explores the concept of grounding in AI, defined as processing primary data with supervision from another source where the two sources have positive mutual information. The talk will connect existing work across visual, acoustic, factual, and cross-lingual grounding.
       </div>
+      <div style="margin-top: 15px;">
+        <a href="https://zoom.us/j/123456789" target="_blank" style="display: inline-block; padding: 8px 20px; background-color: #2D8CFF; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+          <span>Zoom Link / Youtube</span>
+        </a>
+      </div>
     </div>
   </div>
 </div>
-
-<!--
-<div class="seminar-grid">
-  
-  <div class="seminar-card past">
-    <div class="seminar-title">Infant-Inspired Learning in Computer Vision Models</div>
-    <div class="seminar-date">March 10, 2024 | 1:00 PM ET</div>
-    <div class="seminar-speaker">
-      <a href="https://example.com/haiyun-lyu">Haiyun Lyu (UNC Chapel Hill)</a>
-    </div>
-    <div class="speaker-image">
-      <img src="/assets/images/members/haiyun_lyu.jpg" alt="Haiyun Lyu">
-    </div>
-    <div class="seminar-abstract">
-      In this talk, I discussed how principles from infant visual development can inform the architecture and training of computer vision models. By incorporating constraints and learning mechanisms observed in human infants.
-    </div>
-    <div class="seminar-link">
-      <a href="https://youtube.com/recording">Recording</a>
-    </div>
-  </div>
-
-  <div class="seminar-card past">
-    <div class="seminar-title">Embodied Cognition and AI</div>
-    <div class="seminar-date">February 15, 2024 | 11:00 AM ET</div>
-    <div class="seminar-speaker">
-      <a href="https://example.com/dezhi-luo">Dezhi Luo (University of Michigan)</a>
-    </div>
-    <div class="speaker-image">
-      <img src="/assets/images/members/dezhi_luo.jpg" alt="Dezhi Luo">
-    </div>
-    <div class="seminar-abstract">
-      This talk explored the role of embodiment in cognitive development and its implications for AI. Drawing from studies on how children learn through physical interaction with their environment.
-    </div>
-    <div class="seminar-link">
-      <a href="https://youtube.com/recording">Recording</a>
-    </div>
-  </div>
-  
-  <div class="seminar-card past">
-    <div class="seminar-title">Theory of Mind in Multimodal Learning</div>
-    <div class="seminar-date">January 25, 2024 | 2:00 PM ET</div>
-    <div class="seminar-speaker">
-      <a href="https://example.com/jane-doe">Jane Doe (Stanford University)</a>
-    </div>
-    <div class="speaker-image">
-      <img src="/assets/images/members/placeholder.jpg" alt="Jane Doe">
-    </div>
-    <div class="seminar-abstract">
-      This seminar explored how theory of mind can be implemented in multimodal AI systems. We discussed computational approaches to modeling beliefs, intentions, and perspectives in language and vision models.
-    </div>
-    <div class="seminar-link">
-      <a href="https://youtube.com/recording">Recording</a>
-    </div>
-  </div>
-  
-  <div class="seminar-card past">
-    <div class="seminar-title">Language Acquisition in Children and AI</div>
-    <div class="seminar-date">December 10, 2023 | 10:00 AM ET</div>
-    <div class="seminar-speaker">
-      <a href="https://example.com/john-smith">John Smith (MIT)</a>
-    </div>
-    <div class="speaker-image">
-      <img src="/assets/images/members/placeholder.jpg" alt="John Smith">
-    </div>
-    <div class="seminar-abstract">
-      This talk compared language acquisition processes in children with current approaches to training large language models. We examined key differences and opportunities for more human-like language learning in AI systems.
-    </div>
-    <div class="seminar-link">
-      <a href="https://youtube.com/recording">Recording</a>
-    </div>
-  </div>
-</div>
--->
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
