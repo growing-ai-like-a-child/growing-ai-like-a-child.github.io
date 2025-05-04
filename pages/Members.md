@@ -24,9 +24,9 @@ subtitle:
 }
 
 .member-card {
-  width: calc(25% - 18px);
-  min-width: 220px;
-  max-width: 340px;
+  width: calc(16.67% - 18px);
+  min-width: 180px;
+  max-width: 220px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -89,15 +89,21 @@ subtitle:
   text-decoration: underline;
 }
 
+@media (max-width: 1400px) {
+  .member-card {
+    width: calc(20% - 18px);
+  }
+}
+
 @media (max-width: 1200px) {
   .member-card {
-    width: calc(33.33% - 16px);
+    width: calc(25% - 16px);
   }
 }
 
 @media (max-width: 900px) {
   .member-card {
-    width: calc(50% - 16px);
+    width: calc(33.33% - 16px);
   }
 }
 
@@ -216,10 +222,9 @@ subtitle:
       <div class="member-affiliation">University of Florida</div>
     </div>
   </div>
-
-  <!-- 
+  
   <div class="member-card">
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://openreview.net/profile?id=~Maijunxian_Wang1" target="_blank">
       <img src="/img/members/mark.jpg" alt="Mark Wang" class="member-photo">
     </a>
     <div class="member-info">
@@ -227,7 +232,6 @@ subtitle:
       <div class="member-affiliation">University of California, Los Angeles</div>
     </div>
   </div>
-  -->
 
   <div class="member-card">
     <a href="https://pooyanrg.me/" target="_blank">
