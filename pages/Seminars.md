@@ -330,7 +330,7 @@ subtitle:
         This comprehensive tutorial explores the concept of grounding in AI, defined as processing primary data with supervision from another source where the two sources have positive mutual information. The talk will connect existing work across visual, acoustic, factual, and cross-lingual grounding.
       </div>
       <div style="margin-top: 15px;">
-        <a href="https://zoom.us/j/123456789" target="_blank" style="display: inline-block; padding: 8px 20px; background-color: #2D8CFF; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+        <a href="https://www.youtube.com/@GrowAILikeAChild" target="_blank" style="display: inline-block; padding: 8px 20px; background-color: #2D8CFF; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
           <span>Zoom Link / Youtube</span>
         </a>
       </div>
