@@ -12,7 +12,7 @@ subtitle: Investigating the Foundations of Multimodal Intelligence
 </div>
 </center>
 
-accepted by ICML 2025
+<div class="pub-badge" style="display: inline-block; background-color: #4A154B; color: white; padding: 4px 10px; border-radius: 20px; font-size: 11pt; margin-bottom: 10px;">Accepted at ICML 2025</div>
 
 <div class='description' style='font-size: 11pt;margin-bottom: 20pt'>
 <h3>Abstract</h3>
