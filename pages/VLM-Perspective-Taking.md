@@ -116,6 +116,14 @@ subtitle:
 }
 </style>
 
+[//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
+<center>
+<div class="assets">
+<a href="https://huggingface.co/datasets/grow-ai-like-a-child/intentionality" target="_blank">💾 IntentBench Data</a>
+<a href="https://huggingface.co/datasets/grow-ai-like-a-child/perspective-taking" target="_blank">📠 PerspectBench Data</a>
+</div>
+</center>
+
 <div style="text-align: center;">
   <div class="pub-badge" style="display: inline-block; background-color: #4A154B; color: white; padding: 6px 15px; border-radius: 25px; font-size: 12pt; margin: 15px auto; box-shadow: 0 2px 4px rgba(0,0,0,0.2); font-weight: bold;">Accepted at ICLR 2025 Bi-Align Workshop</div>
 </div>
@@ -289,12 +297,6 @@ subtitle:
     <p>
       Overall, our study represents the first attempt to evaluate VLMs' performance in intentionality understanding and perspective-taking. Our findings suggest that while current VLMs can infer the intentions behind others' actions, they struggle with level-2 perspective-taking. On one hand, this supports the hypothesis that intentionality understanding may not require mental simulation but could instead rely entirely on knowledge-based reasoning. On the other hand, it raises concerns that VLMs lack internal models for reasoning or, at the very least, are unable to leverage them effectively for perspective-taking. This concern is particularly significant given that intentionality understanding improves with model scale, whereas perspective-taking does not. Further research is needed to investigate these findings, as they appear to be crucial for understanding the nature of ToM abilities and their artificial implementations. Exploring the underlying mechanisms behind this dissociation may provide deeper insights into the limitations of current AI models and inform the development of architectures better suited for social reasoning.
     </p>
-  </div>
-
-  <div class="section">
-    <h2 class="section-title">Additional Examples</h2>
-    
-    <p>Please refer to the paper for additional examples of vision language models assessed with IntentBench.</p>
   </div>
 </div>
 
