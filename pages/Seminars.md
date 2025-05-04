@@ -3,14 +3,15 @@ layout: page
 title: GrowAI Seminars
 subtitle: 
 ---
-
+<!-- 
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
 <div class="assets">
-<!-- <a href="mailto:growing.ai.like.a.child@gmail.com" target="_blank">[Contact Us]</a>
-<a href="https://github.com/growing-ai-like-a-child" target="_blank">[Github]</a> -->
+ <a href="mailto:growing.ai.like.a.child@gmail.com" target="_blank">[Contact Us]</a>
+<a href="https://github.com/growing-ai-like-a-child" target="_blank">[Github]</a> 
 </div>
 </center>
+-->
 
 <style>
 #intro {
