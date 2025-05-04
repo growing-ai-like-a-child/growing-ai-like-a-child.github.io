@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BabySit
+title: Babysit A Language Model From Scratch
 subtitle: Corrective Feedback Accelerates Neural Word Acquisition
 ---
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
