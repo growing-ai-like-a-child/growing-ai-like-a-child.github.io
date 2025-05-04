@@ -198,7 +198,7 @@ subtitle:
       <img src="/img/members/pingyuan.jpg" alt="Pingyuan Feng" class="member-photo">
     </a>
     <div class="member-info">
-      <h3 class="member-name">Pingyuan Feng</h3>
+      <h3 class="member-name">Pinyuan Feng</h3>
       <div class="member-affiliation">Columbia University</div>
     </div>
   </div>
