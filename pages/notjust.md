@@ -10,10 +10,6 @@ subtitle: Towards a Better Understanding of the Downstream Impact of Language Mo
 </div>
 </center>
 
-<div style="text-align: center;">
-  <div class="pub-badge" style="display: inline-block; background-color: #4A154B; color: white; padding: 6px 15px; border-radius: 25px; font-size: 12pt; margin: 15px auto; box-shadow: 0 2px 4px rgba(0,0,0,0.2); font-weight: bold;">Preprint</div>
-</div>
-
 <div class='description' style='font-size: 11pt;margin-bottom: 20pt'>
 <h3>Abstract</h3>
 <p>
@@ -28,7 +24,7 @@ Broadly, our framework lays a foundation for more systematic investigation of ho
 </p>
 
 <figure style="text-align: center; margin: 25px 0;">
-    <img src="/img/NotJustScaling/method-illustration.png" alt="Method illustration" style="max-width: 90%; height: auto;">
+    <img src="/img/NotJustScaling/pbj_figure.png" alt="Method illustration" style="max-width: 90%; height: auto;">
     <figcaption style="margin-top: 10px; font-style: italic;">We document design decisions from open-weights models related to both architecture and data composition, and train predictors for downstream task performance. This allows us to examine the impact of model design choices individually.</figcaption>
 </figure>
 
@@ -51,7 +47,7 @@ To approach our research question, we built a comprehensive database of publicly
 </ul>
 
 <figure style="text-align: center; margin: 25px 0;">
-    <img src="/img/NotJustScaling/data-taxonomy.png" alt="Data taxonomy" style="max-width: 90%; height: auto;">
+    <img src="/img/NotJustScaling/horizontal_treechart.png" alt="Data taxonomy" style="max-width: 90%; height: auto;">
     <figcaption style="margin-top: 10px; font-style: italic;">Taxonomy of pretraining data categories. We sorted data sources into this taxonomy based on model documentation.</figcaption>
 </figure>
 
@@ -74,7 +70,7 @@ We find that incorporating extra features alongside traditional scaling laws fea
 </p>
 
 <figure style="text-align: center; margin: 25px 0;">
-    <img src="/img/NotJustScaling/large_shap.png" alt="SHAP analysis of features" style="max-width: 90%; height: auto;">
+    <img src="/img/NotJustScaling/large_shap_v2.png" alt="SHAP analysis of features" style="max-width: 90%; height: auto;">
     <figcaption style="margin-top: 10px; font-style: italic;">In all tasks, the number of parameters and pretraining tokens heavily influences the predictions made by the regressor. The percentage of code in pretraining often influences predictions negatively for NLI tasks but positively for Humaneval.</figcaption>
 </figure>
 
@@ -87,7 +83,7 @@ Models trained with more than roughly 20–25% code are predicted to have large 
 </p>
 
 <figure style="text-align: center; margin: 25px 0;">
-    <img src="/img/NotJustScaling/code_shap_combined.png" alt="Code effect on performance" style="max-width: 90%; height: auto;">
+    <img src="/img/NotJustScaling/code_shap_impact_figure.png" alt="Code effect on performance" style="max-width: 90%; height: auto;">
     <figcaption style="margin-top: 10px; font-style: italic;">SHAP impact of code percentage on Lambada (representative NL task) and Humaneval on our regressors.</figcaption>
 </figure>
 
