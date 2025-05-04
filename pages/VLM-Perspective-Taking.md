@@ -129,9 +129,6 @@ subtitle:
 </div>
 
 <div class="page-container">
-  <div class="paper-link-container">
-    <a href="https://arxiv.org/abs/2410.00324" target="_blank" class="paper-link">Read the Paper</a>
-  </div>
 
   <div class="author-section">
     <p>
@@ -298,5 +295,10 @@ subtitle:
       Overall, our study represents the first attempt to evaluate VLMs' performance in intentionality understanding and perspective-taking. Our findings suggest that while current VLMs can infer the intentions behind others' actions, they struggle with level-2 perspective-taking. On one hand, this supports the hypothesis that intentionality understanding may not require mental simulation but could instead rely entirely on knowledge-based reasoning. On the other hand, it raises concerns that VLMs lack internal models for reasoning or, at the very least, are unable to leverage them effectively for perspective-taking. This concern is particularly significant given that intentionality understanding improves with model scale, whereas perspective-taking does not. Further research is needed to investigate these findings, as they appear to be crucial for understanding the nature of ToM abilities and their artificial implementations. Exploring the underlying mechanisms behind this dissociation may provide deeper insights into the limitations of current AI models and inform the development of architectures better suited for social reasoning.
     </p>
   </div>
+  
+  <div class="paper-link-container">
+    <a href="https://arxiv.org/abs/2410.00324" target="_blank" class="paper-link">Read the Paper</a>
+  </div>
+
 </div>
 
