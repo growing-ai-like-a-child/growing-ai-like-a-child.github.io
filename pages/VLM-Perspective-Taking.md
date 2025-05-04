@@ -180,7 +180,7 @@ subtitle:
         To test level-1 and level-2 perspective-taking in VLMs, we adapted the Three Mountain task into formats that are suitable for benchmarks with minimal confounding details while preserving real-life spatiality. In particular, we used groups of 3-4 commonly-seen elastic cans organized into different spatial patterns to mimic the mountain model. Like in the original task, we used a doll placed to face the organization from different angels as the object of perspective-taking.
       </p>
       
-      <img src="/assets/images/case_6.jpg" alt="Example Experiments and Model Performances on PerspectBench">
+      <img src="/img/perspective/case_6.png" alt="Example Experiments and Model Performances on PerspectBench">
       <span class="figure-caption">Figure 1: Example Experiments and Model Performances on PerspectBench</span>
       
       <h4>Intentionality Understanding</h4>
@@ -188,7 +188,7 @@ subtitle:
         Intentionality understanding is believed to be grounded by rudimentary theory-of-mind abilities. In developmental psychology, a critical subset of intentionality understanding experiments involves tests of action understanding. Several computational hypotheses are proposed on how one could understand other people's actions: for example, action understanding could be computationally modeled as pure inference, as mental action simulation, or as inverse planning. Typically, cartoon stimuli built via physic simulation engine are used frequently in action understanding in developmental psychology. These stimuli are incorporated into IntentBench. However, a common critique of cognitive psychology tasks is that they lack realism and have limited applicability to real-world situations. Drawing inspiration from COIG-CQIA and its Ruozhiba dataset, many real-world ambiguous scenarios are incorporated into IntentBench for explicitly testing intentionality understanding in ethological conditions.
       </p>
       
-      <img src="/assets/images/case_2.jpg" alt="Example Experiments and Model Performances on IntentBench">
+      <img src="/img/perspective/case_2.png" alt="Example Experiments and Model Performances on IntentBench">
       <span class="figure-caption">Figure 2: Example Experiments and Model Performances on IntentBench</span>
     </div>
     
@@ -226,10 +226,10 @@ subtitle:
         To quantify this disparity, we conducted a paired samples t-test on the accuracy scores of these models across the two datasets. The analysis revealed a highly significant difference in performance between the two tasks, with a t-statistic of t = 17.651 and a p-value of p = 2.62 × 10<span class="superscript">-19</span> (Figure 4). This result provides strong statistical evidence that VLMs exhibit a systematic performance discrepancy, excelling at intentionality understanding while continuing to struggle with perspective-taking. These findings highlight an important challenge for the development of AI systems capable of robust social reasoning and theory of mind.
       </p>
       
-      <img src="/assets/images/all_results.jpg" alt="VLMs' Performance on IntentBench and PerspectBench As Compared to Human Baseline">
+      <img src="/img/perspective/all_results.png" alt="VLMs' Performance on IntentBench and PerspectBench As Compared to Human Baseline">
       <span class="figure-caption">Figure 3: VLMs' Performance on IntentBench and PerspectBench As Compared to Human Baseline</span>
       
-      <img src="/assets/images/violin_2.jpg" alt="VLMs perform significantly better in intentionality understanding compared to perspective-taking">
+      <img src="/img/perspective/violin_2.png" alt="VLMs perform significantly better in intentionality understanding compared to perspective-taking">
       <span class="figure-caption">Figure 4: VLMs perform significantly better in intentionality understanding compared to perspective-taking. Paired samples t-test: p = 2.62 × 10<span class="superscript">-19</span>, t = 17.651.</span>
     </div>
     
@@ -239,7 +239,7 @@ subtitle:
         A common assumption in machine learning is that expanding a model's scale, as measured by the number of parameters, results in systematic enhancements in its reasoning abilities. We examined the degree to which this principle, known as the scaling law hypothesis, holds for the two evaluated cognitive abilities. We observed distinct trends in how intentionality understanding and perspective-taking evolve as VLMs scale in size (Figure 5). While larger models tend to improve in intentionality understanding, their performance in perspective-taking remains largely stagnant—or even declines slightly. This divergence raises important questions about the underlying mechanisms driving these cognitive abilities in AI models and their relationship to model scaling.
       </p>
       
-      <img src="/assets/images/model_size_3.jpg" alt="Differential performance changes in intentionality understanding and perspective-taking in VLMs as their model sizes increase">
+      <img src="/img/perspective/model_size_3.png" alt="Differential performance changes in intentionality understanding and perspective-taking in VLMs as their model sizes increase">
       <span class="figure-caption">Figure 5: Differential performance changes in intentionality understanding and perspective-taking in VLMs as their model sizes increase. Intentionality understanding: y = 0.0599x + 0.3925, r<span class="superscript">2</span> = 0.2797; perspective-taking: y = -0.0057x + 0.1437, r<span class="superscript">2</span> = 0.0176).</span>
       
       <p>
@@ -290,11 +290,7 @@ subtitle:
   <div class="section">
     <h2 class="section-title">Additional Examples</h2>
     
-    <img src="/assets/images/case_1.jpg" alt="Additional Examples of Vision Language Models Assessed with IntentBench: Correct">
-    <span class="figure-caption">Additional Examples of Vision Language Models Assessed with IntentBench: Correct</span>
-    
-    <img src="/assets/images/case_5.jpg" alt="Additional Examples of Vision Language Models Assessed with IntentBench: Wrong">
-    <span class="figure-caption">Additional Examples of Vision Language Models Assessed with IntentBench: Wrong</span>
+    <p>Please refer to the paper for additional examples of vision language models assessed with IntentBench.</p>
   </div>
 </div>
 

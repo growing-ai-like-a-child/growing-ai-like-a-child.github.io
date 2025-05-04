@@ -300,19 +300,12 @@ subtitle:
       GrowAI Seminars is an online series organized by the <a href="https://growing-ai-like-a-child.github.io/">Growing AI Like a Child</a> team. We invite researchers from AI, developmental psychology, cognitive science, and related fields to share insights and work toward understanding how artificial intelligence systems can develop more human-like capabilities through developmental trajectories similar to those of children.
     </p>
     <p>
-      <a href="mailto:growing.ai.like.a.child@gmail.com">Contact us</a> if you're interested in giving a talk or have suggestions for speakers. Join our <a href=""https://join.slack.com/t/growingailikeachild/shared_invite/zt-309yqd0sl-W8xzOkdBPha1Jh5rnee78A">Slack</a> if you're interested in giving a talk or listening to upcoming talks.
+      Join our <a href="https://join.slack.com/t/growingailikeachild/shared_invite/zt-309yqd0sl-W8xzOkdBPha1Jh5rnee78A">Slack</a> if you're interested in giving a talk or listening to upcoming talks.
     </p>
   </div>
   <div id="intro-image">
-    <img src="/assets/images/logo.png" alt="GrowAI Logo">
+    <img src="/img/images/logo.png" alt="GrowAI Logo">
   </div>
-</div>
-
-<div class="image-quote-container">
-  <img src="/assets/images/child-development.jpg" alt="Child Development" style="width: 300px; height: auto; border-radius: 8px; padding-top: 30px;">
-  <blockquote style="margin-top: 20px; font-size: 1.5rem; font-style: italic; color: #555; padding-bottom: 20px;">
-    "The goal is to make machines that learn and think like people" - Lake et al.
-  </blockquote>
 </div>
 
 <div id="filters" class="button-group">
@@ -324,7 +317,7 @@ subtitle:
 <div class="featured-seminar upcoming">
   <div class="featured-content">
     <div class="featured-image">
-      <img src="/assets/images/members/placeholder.jpg" alt="Freda Shi">
+      <img src="/img/members/freda.jpg" alt="Freda Shi">
     </div>
     <div class="featured-details">
       <div class="featured-title">Grounding in AI: From Lexicons to Complex Meanings</div>
