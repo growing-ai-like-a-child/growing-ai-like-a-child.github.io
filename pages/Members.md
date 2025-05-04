@@ -136,7 +136,7 @@ subtitle:
       <img src="/img/members/yijiang.png" alt="Yijiang Li" class="member-photo">
     </a>
     <div class="member-info">
-      <h3 class="member-name">Yijiang Li</h3>
+      <h3 class="member-name">William Li</h3>
       <div class="member-affiliation">University of California, San Diego</div>
     </div>
   </div>
