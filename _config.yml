@@ -17,6 +17,7 @@ navbar-links:
   Home: "/"
   Core Knowledge: "/pages/Core"
   BabySit LLM: "/pages/BabySit"
+  Not-Just-Scaling: "/pages/notjust"
   World-to-Words: "/pages/OctoBERT"
   Seminar: "/pages/Seminars"
   People: "/pages/Members"
