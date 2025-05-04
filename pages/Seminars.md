@@ -304,7 +304,7 @@ subtitle:
     </p>
   </div>
   <div id="intro-image">
-    <img src="/img/images/logo.png" alt="GrowAI Logo">
+    <img src="/img/images/logo.jpeg" alt="GrowAI Logo">
   </div>
 </div>
 

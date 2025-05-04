@@ -11,7 +11,9 @@ subtitle: Corrective Feedback Accelerates Neural Word Acquisition
 </div>
 </center>
 
-<div class="pub-badge" style="display: inline-block; background-color: #4A154B; color: white; padding: 4px 10px; border-radius: 20px; font-size: 11pt; margin-bottom: 10px;">Accepted at NAACL 2025</div>
+<div style="text-align: center;">
+  <div class="pub-badge" style="display: inline-block; background-color: #4A154B; color: white; padding: 6px 15px; border-radius: 25px; font-size: 12pt; margin: 15px auto; box-shadow: 0 2px 4px rgba(0,0,0,0.2); font-weight: bold;">Accepted at NAACL 2025</div>
+</div>
 
 <div class='description' style='font-size: 11pt;margin-bottom: 20pt'>
 <h3>Abstract</h3>
