@@ -6,9 +6,9 @@ subtitle: World-to-Words Grounded Open Vocabulary Acquisition through Fast Mappi
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
 <div class="assets">
-<a href="https://arxiv.org/abs/2410.00318" target="_blank">[Paper]</a>
-<a href="https://huggingface.co/papers/2306.08685" target="_blank">[HuggingFace]</a>
-<a href="https://github.com/sled-group/world-to-words" target="_blank">[GitHub]</a>
+<a href="https://arxiv.org/abs/2410.00318" target="_blank">📄 Paper 📄</a>
+<a href="https://huggingface.co/papers/2306.08685" target="_blank">💽 Data 💽</a>
+<a href="https://github.com/sled-group/world-to-words" target="_blank">⌨️ Code ⌨️</a>
 </div>
 </center>
 

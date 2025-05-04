@@ -6,9 +6,9 @@ subtitle: Investigating the Foundations of Multimodal Intelligence
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
 <div class="assets">
-<a href="https://arxiv.org/abs/2410.10855" target="_blank">Paper</a>
-<a href="" target="_blank">Data (Coming Soon)</a>
-<a href="" target="_blank">Code (Coming Soon)</a>
+<a href="https://arxiv.org/abs/2410.10855" target="_blank">📃 Paper 📃 </a>
+<a href="" target="_blank">💾 Data (Coming Soon) 💾</a>
+<a href="" target="_blank">📠 Code (Coming Soon) 📠</a>
 </div>
 </center>
 

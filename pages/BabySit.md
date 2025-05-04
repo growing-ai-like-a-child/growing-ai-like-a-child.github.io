@@ -6,8 +6,8 @@ subtitle: Corrective Feedback Accelerates Neural Word Acquisition
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
 <div class="assets">
-<a href="https://arxiv.org/abs/2405.13828" target="_blank">Paper</a>
-<a href="https://github.com/sled-group/TnD" target="_blank">Code</a>
+<a href="https://arxiv.org/abs/2405.13828" target="_blank">📃 Paper 📃</a>
+<a href="https://github.com/sled-group/TnD" target="_blank">💻 Code 💻</a>
 </div>
 </center>
 
