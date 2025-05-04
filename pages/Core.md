@@ -6,9 +6,13 @@ subtitle: Investigating the Foundations of Multimodal Intelligence
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
 <div class="assets">
-<a href="https://arxiv.org/abs/2410.10855" target="_blank">[Paper]</a>
+<a href="https://arxiv.org/abs/2410.10855" target="_blank">Paper</a>
+<a href="" target="_blank">Data (Coming Soon)</a>
+<a href="" target="_blank">Code (Coming Soon)</a>
 </div>
 </center>
+
+accepted by ICML 2025
 
 <div class='description' style='font-size: 11pt;margin-bottom: 20pt'>
 <h3>Abstract</h3>

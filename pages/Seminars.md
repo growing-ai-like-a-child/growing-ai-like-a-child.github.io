@@ -300,7 +300,7 @@ subtitle:
       GrowAI Seminars is an online series organized by the <a href="https://growing-ai-like-a-child.github.io/">Growing AI Like a Child</a> team. We invite researchers from AI, developmental psychology, cognitive science, and related fields to share insights and work toward understanding how artificial intelligence systems can develop more human-like capabilities through developmental trajectories similar to those of children.
     </p>
     <p>
-      <a href="mailto:growing.ai.like.a.child@gmail.com">Contact us</a> if you're interested in giving a talk or have suggestions for speakers.
+      <a href="mailto:growing.ai.like.a.child@gmail.com">Contact us</a> if you're interested in giving a talk or have suggestions for speakers. Join our <a href=""https://join.slack.com/t/growingailikeachild/shared_invite/zt-309yqd0sl-W8xzOkdBPha1Jh5rnee78A">Slack</a> if you're interested in giving a talk or listening to upcoming talks.
     </p>
   </div>
   <div id="intro-image">

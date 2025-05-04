@@ -6,8 +6,8 @@ subtitle: An Investigation
 [//]: # (<h3 style='margin-bottom: 10pt;'>Topics</h3>)
 <center>
 <div class="assets">
-<a href="https://openreview.net/forum?id=yGXxvRQwbB" target="_blank">[Paper]</a>
-<a href="https://huggingface.co/datasets/grow-ai-like-a-child/mechanical-reasoning" target="_blank">[Dataset]</a>
+<a href="https://openreview.net/forum?id=yGXxvRQwbB" target="_blank">Paper</a>
+<a href="https://huggingface.co/datasets/grow-ai-like-a-child/mechanical-reasoning" target="_blank">Data</a>
 </div>
 </center>
 
