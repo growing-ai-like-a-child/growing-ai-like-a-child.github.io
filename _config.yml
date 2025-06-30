@@ -15,8 +15,8 @@ author: GrowAI
 
 navbar-links:
   Home: "/"
-  Core Knowledge: "/pages/https://williamium3000.github.io/core-knowledge/"
-  VLM-Gaze: "/pages/https://grow-ai-like-a-child.github.io/gaze/"
+  Core Knowledge: "https://williamium3000.github.io/core-knowledge/"
+  VLM-Gaze: "https://grow-ai-like-a-child.github.io/gaze/"
   BabySit LLM: "/pages/BabySit"
   Not-Just-Scaling: "/pages/notjust"
   World-to-Words: "/pages/OctoBERT"
