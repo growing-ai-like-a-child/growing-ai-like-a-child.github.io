@@ -274,7 +274,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="siyuansong.site" target="_blank">
+    <a href="https://siyuansong.site" target="_blank">
       <img src="/img/members/siyuan_song.png" alt="Siyuan Song" class="member-photo">
     </a>
     <div class="member-info">
