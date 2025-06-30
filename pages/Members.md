@@ -274,6 +274,16 @@ subtitle:
   </div>
 
   <div class="member-card">
+    <a href="siyuansong.site" target="_blank">
+      <img src="/img/members/siyuan_song.png" alt="Siyuan Song" class="member-photo">
+    </a>
+    <div class="member-info">
+      <h3 class="member-name">Siyuan Song</h3>
+      <div class="member-affiliation">University of Texas at Austin</div>
+    </div>
+  </div>
+
+  <div class="member-card">
     <a href="https://scholar.google.com/citations?user=eLRxn6QAAAAJ&hl=zh-CN" target="_blank">
       <img src="/img/members/haoran_sun.jpg" alt="Haoran Sun" class="member-photo">
     </a>
