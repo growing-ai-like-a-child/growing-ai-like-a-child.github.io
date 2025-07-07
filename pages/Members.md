@@ -254,7 +254,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://openreview.net/profile?id=~Maijunxian_Wang1" target="_blank">
+    <a href="https://mjxwang.github.io/Maijunxian-Wang-s-Personal-Website-1-/" target="_blank">
       <img src="/img/members/mark.jpg" alt="Mark Wang" class="member-photo">
     </a>
     <div class="member-info">
@@ -290,6 +290,16 @@ subtitle:
     <div class="member-info">
       <h3 class="member-name">Haoran Sun</h3>
       <div class="member-affiliation">Johns Hopkins University</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://sarajir.github.io/Ranji-s-Personal-Website/" target="_blank">
+      <img src="/img/members/ran_ji.jpg" alt="Ran Ji" class="member-photo">
+    </a>
+    <div class="member-info">
+      <h3 class="member-name">Ran Ji</h3>
+      <div class="member-affiliation">University of California, Davis</div>
     </div>
   </div>
 
