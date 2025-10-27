@@ -303,6 +303,16 @@ subtitle:
     </div>
   </div>
 
+  <div class="member-card">
+    <a href="https://www.linkedin.com/in/runming-wang-090030139/" target="_blank">
+      <img src="/img/members/tonywang.jpg" alt="Tony Wang" class="member-photo">
+    </a>
+    <div class="member-info">
+      <h3 class="member-name">Tony Wang</h3>
+      <div class="member-affiliation">Johns Hopkins University</div>
+    </div>
+  </div>
+
 </div>
 
 <div style="text-align: center; margin-top: 60px; padding: 30px; background-color: #f8f9fa; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
