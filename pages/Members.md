@@ -313,11 +313,69 @@ subtitle:
     </div>
   </div>
 
+  <div class="member-card">
+    <a href="https://openreview.net/profile?id=~Hua_XU9" target="_blank">
+      <img src="/img/members/Hua_XU.png" alt="Hua Xu" class="member-photo">
+    </a>
+    <div class="member-info">
+      <h3 class="member-name">Hua Xu</h3>
+      <div class="member-affiliation">Hong Kong University of Science and Technology</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://openreview.net/profile?id=~Juyi_Lin1" target="_blank">
+      <img src="/img/members/Juyi_Lin.png" alt="Juyi Lin" class="member-photo">
+    </a>
+    <div class="member-info">
+      <h3 class="member-name">Juyi Lin</h3>
+      <div class="member-affiliation">Northeastern University</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://medium.com/@kenton_69720" target="_blank">
+      <img src="/img/members/Kenton_Blacutt.jpg" alt="Kenton Blacutt" class="member-photo">
+    </a>
+    <div class="member-info">
+      <h3 class="member-name">Kenton Blacutt</h3>
+      <div class="member-affiliation">Amazon Web Services</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://linyanghe.github.io/" target="_blank">
+      <img src="/img/members/linyang.jpg" alt="Linyang He" class="member-photo">
+    </a>
+    <div class="member-info">
+      <h3 class="member-name">Linyang He</h3>
+      <div class="member-affiliation">Columbia University</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <a href="https://freaxhomepage.vercel.app/" target="_blank">
+      <img src="/img/members/Yaoyaoqian.png" alt="Yaoyao Qian" class="member-photo">
+    </a>
+    <div class="member-info">
+      <h3 class="member-name">Yaoyao Qian</h3>
+      <div class="member-affiliation">Northeastern University</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img src="/img/members/Yile_Xu.jpeg" alt="Yile Xu" class="member-photo">
+    <div class="member-info">
+      <h3 class="member-name">Yile Xu</h3>
+      <div class="member-affiliation">The University of Edinburgh</div>
+    </div>
+  </div>
+
 </div>
 
 <div style="text-align: center; margin-top: 60px; padding: 30px; background-color: #f8f9fa; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
   <h3 style="color: #333; margin-bottom: 15px; font-size: 24px;"><a href="https://join.slack.com/t/growingailikeachild/shared_invite/zt-309yqd0sl-W8xzOkdBPha1Jh5rnee78A" target="_blank">Join Us</a></h3>
   <p style="color: #555; max-width: 700px; margin: 0 auto 25px auto; font-size: 16px; line-height: 1.6;">
-    We're a community of passionate people who have deep conviction in the developmental approach towards intelligence.
+    We're a community of passionate people who have deep conviction in the cognitive approach towards intelligence.
   </p>
 </div> 
