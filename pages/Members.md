@@ -314,7 +314,7 @@ subtitle:
   </div>
 
   <div class="member-card">
-    <a href="https://openreview.net/profile?id=~Hua_XU9" target="_blank">
+    <a href="http://hxu129.github.io/" target="_blank">
       <img src="/img/members/Hua_XU.png" alt="Hua Xu" class="member-photo">
     </a>
     <div class="member-info">
