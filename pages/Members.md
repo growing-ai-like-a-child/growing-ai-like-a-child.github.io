@@ -1,5 +1,3 @@
-<!--
-
 ---
 layout: page
 title: Active Members
@@ -380,5 +378,4 @@ subtitle:
   <p style="color: #555; max-width: 700px; margin: 0 auto 25px auto; font-size: 16px; line-height: 1.6;">
     We're a community of passionate people who have deep conviction in the cognitive approach towards intelligence.
   </p>
-</div> 
--->
+</div>
