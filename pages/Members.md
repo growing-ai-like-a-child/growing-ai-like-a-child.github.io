@@ -1,3 +1,5 @@
+<!--
+
 ---
 layout: page
 title: Active Members
@@ -379,3 +381,4 @@ subtitle:
     We're a community of passionate people who have deep conviction in the cognitive approach towards intelligence.
   </p>
 </div> 
+-->
